@@ -1,0 +1,47 @@
+/* add good fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/* set reasonable css reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #333;
+}
+
+/* create a flex grid of 20% wide divs that contain images */
+.flex-grid {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 3rem 0rem;
+  margin: 2em;
+  border-radius: 3rem;    
+}
+
+
+
+.flex-grid > div {
+  width: 25%;
+  min-width: 200px;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(34, 45, 57);
+  border-radius: 1rem;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  
+}
+
+.flex-grid img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,0.5);
+}
+
