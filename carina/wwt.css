@@ -1,0 +1,199 @@
+
+
+/* add font-awesome-icons from cdn */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* add nice sans-serif fonts from google */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:300,400,500,700,900');
+
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid rgb(49, 221, 18); */
+}
+
+/* dark mode user-agent-styles */
+html {
+  /* color-scheme: dark light; */
+}
+
+/* min body height */
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img, picture, svg, video {
+  display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+  }
+
+  
+/* OUR CSS */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto' ;
+    font-size: 13px;
+}
+
+
+div {
+    /* border: 2px solid blue */
+    /* filter: brightness(3) contrast(.8); */
+}
+
+button, select {
+    
+}
+
+#wwtcanvas {
+    /* margin: 50px auto;; */
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid blue; */
+}
+
+.overlay {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 5px;
+    color: rgb(17, 33, 58);
+    background-color:  rgba(255, 255, 255, 0.5) ;
+    font-size: 1em;
+    outline: 1px solid rgba(163, 18, 230, .8);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+    
+select#wwt_image_list {
+  position:absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 1em;
+  max-width: 50%;
+}
+
+select#wwt_image_list_allsky {
+  position:absolute;
+  top: 1em;
+  left: 60%;
+  font-size: 1em;
+  max-width: 30%;
+}
+
+#radec {
+    position: absolute;
+    bottom: 1em;
+    margin-left: max(1%,1em);
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 1em;
+    width: 19em;
+    height: 2em;
+    justify-content: left;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+#ra, #dec {
+    display: block;
+    text-align: center;
+}
+
+
+div#image_list {
+  position: absolute;
+  top: 5em;
+  left: 1em;
+  width: fit-content;
+  padding: 0.5em;
+  height: fit-content;
+  max-height: 500px;
+  z-index: 100;
+  overflow: scroll;
+}
+
+div.image_list_item {
+  /* outline: 1px solid white; */
+  margin: 0.5em;
+}
+
+
+img.thumbnail {
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    margin: auto;
+    object-fit: cover;
+    /* border-radius: 5px; */
+    /* margin: 5px; */
+    cursor: pointer;
+    overflow: hidden;
+    filter: grayscale(0.5) brightness(.5) ;
+}
+
+
+img.thumbnail_selected {
+    outline: 2px solid greenyellow;
+    /* filter: drop-shadow(0px 4px 4px black) */
+    filter: drop-shadow(0px 0px 4px rgb(112, 110, 110));
+}
+
+
+
+
+
+/* position absolute center on bottom of screen */
+div.slidercontainer  {
+    position: absolute;
+    bottom: 3.5em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 70%;
+
+    justify-content: center;
+    align-items: middle;
+    z-index: 100;
+    
+}
+
+div.slider_with_name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    gap: 0.5em;
+    align-items: middle;
+    justify-content: center;
+    /* outline: 1px solid red; */
+}
+
+span.slider_label {
+  font-size: .8em;
+  /* margin-right: 1em; */
+  width: 8em;
+  text-align: center;
+  /* min-width: min-content; */
+}
