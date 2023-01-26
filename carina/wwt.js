@@ -69,7 +69,7 @@ async function wwt_load_after_ready() {
     wwt_si.settings._showConstellationFigures = false;
     wwt_si.settings._showConstellationSelection = false;
     wwt_si.settings._showISSModel = false;
-    
+
     // grid
     // wwt_si.settings._showGrid = true;
 
@@ -85,7 +85,7 @@ async function wwt_load_after_ready() {
     log("loading WTML", 'info', 1, true)
     loadWTML('./jwst_carina.wtml', 'JWST Carina NIRCam')
         .then((imageset) => {
-            log(`${imageset._name} is loaded`,'success')
+            log(`${imageset._name} is loaded`, 'success')
             jwst_imageset = imageset;
             jwst_layer = wwt_si.addImageSetLayer(jwst_imageset.url);
             jwst_layer.set_name(jwst_imageset._name);
@@ -106,8 +106,8 @@ async function wwt_load_after_ready() {
             add_opacity_slider(hubble_layer);
             wwt_si.setImageSetLayerOrder(hubble_layer.id, 0)
         });
-    
-    
+
+
     loadWTML('./unwise.wtml', 'unWISE')
         .then(
             (imageset) => {
@@ -115,11 +115,11 @@ async function wwt_load_after_ready() {
                 add_image_option(imageset._name, 'Infrared');
                 set_background_image(imageset._name);
             });
-    
+
     // use list of imagesets to add to the menu
     // folder = wwtlib.Wtml.getWtmlFile('https://worldwidetelescope.github.io/pywwt/surveys.xml', () => { add_all_allsky_datasets() }, true)
-    
-    
+
+
     // roll_deg is in radians :/ 1.8 radians = 103.5 degrees 
     // intial fov is 60deg, need move there first so we can zoom in in a time independent manner
     wwt_cl.gotoRADecZoom(ra_hours = 10.61, dec_deg = -58.64, instant = true, roll_deg = 1.8)
@@ -135,35 +135,35 @@ function ensureImagesetReady(name) {
     return new Promise(function (resolve, reject) {
         (function waitForImagesetReady() {
             log('ensuring ' + name + ' ImageSet is ready', 'info')
-            if (imagesetExists(name)) return resolve( wwt_cl.getImagesetByName(name) );
+            if (imagesetExists(name)) return resolve(wwt_cl.getImagesetByName(name));
             setTimeout(waitForImagesetReady, 1);
         })();
     });
 }
 
-async function loadWTML(filename, name, callback = () => {}, loadChildFolders = false) {
+async function loadWTML(filename, name, callback = () => { }, loadChildFolders = false) {
     // function to load wtml files
     wwtlib.Wtml.getWtmlFile(filename, callback, loadChildFolders) // JWST Carina NIRCam
     return ensureImagesetReady(name)
 }
 
-function getImageSetLayerByName (name) {
+function getImageSetLayerByName(name) {
     layers = wwt_si.getLayers() // object
-    
+
     for (layer in layers) {
         if (layers[layer].get_name() == name) {
             return layers[layer]
         }
     }
-    
+
 }
 
 function add_all_allsky_datasets() {
     imagesetFolder = wwtlib.WWTControl.getImageSets().filter((imageset) => imageset._dataSetType == 2) // 2 is sky data
     log(`adding ${imagesetFolder.length} all allsky datasets`, 'info', 1, false)
     imagesetFolder.forEach((imageset) => {
-            add_image_option(imageset, `${bandpass[imageset._bandPass]} (Full list)`, 'wwt_image_list_allsky')
-        })
+        add_image_option(imageset, `${bandpass[imageset._bandPass]} (Full list)`, 'wwt_image_list_allsky')
+    })
     log('added all allsky datasets', 'info', 1, false)
 }
 
@@ -195,7 +195,7 @@ function add_image_option(image, groupname = null, id = "wwt_image_list") {
     } else {
         // log(`adding option (${image})`, 0, false);
     }
-    
+
     option = document.createElement("option");
     option.value = image;
     option.innerHTML = image;
@@ -232,9 +232,9 @@ function add_image_options(list_of_images, groupname = null, id = "wwt_image_lis
 function make_wwt_image_list() {
     log("making wwt_image_list");
     // add optical images
-    add_image_options(wwt_images['AllSky']['Optical'],'Optical');
+    add_image_options(wwt_images['AllSky']['Optical'], 'Optical');
     // add infrared images
-    add_image_options(wwt_images['AllSky']['Infrared'],'Infrared');
+    add_image_options(wwt_images['AllSky']['Infrared'], 'Infrared');
     // add catalog images
     add_image_options(wwt_images['AllSky']['Catalogs'], 'Catalogs');
     // add no data images
@@ -249,7 +249,7 @@ function make_wwt_image_list() {
 
 function set_image_from_menu(el) {
     var wwt_image_list = el //document.getElementById("wwt_image_list");
-    log("setting image to: " + wwt_image_list.value.replace('_option','') + "", '', 1);
+    log("setting image to: " + wwt_image_list.value.replace('_option', '') + "", '', 1);
     wwt_cl.setBackgroundImageByName(wwt_image_list.value);
     // imageset = wwt_cl.getImagesetByName(wwt_image_list.value)
     // wwt_cl.gotoRADecZoom(ra_hours = imageset._centerX, dec_deg = imageset._centerY, zoom = fov_to_zoom(30), instant = true, roll_deg = 1.8)
@@ -270,9 +270,9 @@ function set_background_image(image) {
 function set_ra_dec_display() {
     radec_div = document.getElementById("radec");
     radec_div.style.display = "flex";
-    let RA = wwtlib.WWTControl.scriptInterface.getRA();
-    let DEC = wwtlib.WWTControl.scriptInterface.getDec();
-    let FOV = wwtlib.WWTControl.scriptInterface.get_fov();
+    let RA = wwt_si.getRA();
+    let DEC = wwt_si.getDec();
+    let FOV = wwt_si.get_fov();
     document.getElementById("ra_val").innerHTML = parseFloat(RA).toFixed(2);
     document.getElementById("dec_val").innerHTML = parseFloat(DEC).toFixed(2);
     document.getElementById("fov_val").innerHTML = parseFloat(FOV).toFixed(2);
@@ -303,12 +303,12 @@ function fov_to_zoom(fov) {
 function add_layer_to_thumbnail_div(layer) {
     // add a thumbnail to the thumbnail div using layer.url
     log("adding layer to image list: " + layer.get_name(), 'info')
-    
+
     image_list = document.getElementById("image_list")
-    
+
     div = document.createElement("div");
     div.className = "image_list_item";
-    
+
     img = document.createElement("img");
     img.src = layer.get_imageSet()._thumbnailUrl;
     img.className = "thumbnail";
@@ -319,7 +319,7 @@ function add_layer_to_thumbnail_div(layer) {
     }
     div.appendChild(img);
 
-    
+
     image_list.appendChild(div);
 }
 
@@ -352,12 +352,12 @@ function add_opacity_slider(layer) {
         } else {
             input.value = 100;
             layer.set_opacity(1);
-        }    
+        }
     };
     containing_div.appendChild(span)
     containing_div.appendChild(input)
 
-    
+
     div.appendChild(containing_div)
 }
 
@@ -394,5 +394,5 @@ function crossfade_layers(slider_element, layerName1, layerName2) {
     // higher opacity layer should go on top
     var opacity = slider_element.value / 100;
     layer1.set_opacity(opacity);
-    layer2.set_opacity(1-opacity);
+    layer2.set_opacity(1 - opacity);
 }
