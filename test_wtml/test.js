@@ -80,7 +80,7 @@ async function wwt_load_after_ready() {
 
     // Load external wtml files and register them with WWT
 
-    loadWTML('../images/test.wtml', 'test')
+    loadWTML('../images/test_scale.wtml', 'test')
         .then((imageset) => {
             myimageset = imageset;
             // wwt_cl.setBackgroundImageByName(imageset._name);
@@ -88,6 +88,21 @@ async function wwt_load_after_ready() {
             log(`${myimageset._name} is loaded`, 'success')
             myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
             myimageset_layer.set_name(myimageset._name);
+            myimageset_layer.opacity = 0.5;
+            myimageset_layer.set_enabled(true);
+            add_opacity_slider(myimageset_layer);
+            wwt_si.setImageSetLayerOrder(myimageset_layer.id, 1)
+            
+        });
+    
+        loadWTML('../images/test.wtml', 'test_no_inv')
+        .then((imageset) => {
+            myimageset = imageset;
+            // wwt_cl.setBackgroundImageByName(imageset._name);
+            console.log(myimageset)
+            log(`${myimageset._name} is loaded`, 'success')
+            myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
+            myimageset_layer.set_name('using inversion header');
             myimageset_layer.opacity = 0.5;
             myimageset_layer.set_enabled(true);
             add_opacity_slider(myimageset_layer);

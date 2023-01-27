@@ -1,7 +1,7 @@
 <Folder Name="test" Group="Explorer" Searchable="False">  <VersionDependent>false</VersionDependent>
 <Place Name="test" DataSetType="Sky" RA="15.849510268431588" Dec="32.04764555280646" Rotation="0" ZoomLevel="10">
 <ForegroundImageSet>
-<ImageSet Generic="False" DataSetType="Sky" BandPass="Visible" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/692_2022E3_02_01_23_tagged.jpg" TileLevels="0" WidthFactor="2" Sparse="False" Rotation="-90.93690685395443" QuadTreeMap="" Projection="Tangent" Name="test" FileType=".tif" CenterY="32.04764555280646" CenterX="237.74265402647382" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="0" OffsetY="0" BaseTileLevel="0" BaseDegreesPerTile="1.609933067701945" ReferenceFrame="" MeanRadius="0">        <Credits>NASA, ESA, and The Hubble Heritage Team (STScI/AURA)</Credits>
+<ImageSet Generic="False" DataSetType="Sky" BandPass="Visible" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/692_2022E3_02_01_23_tagged.jpg" TileLevels="0" WidthFactor="2" Sparse="False" Rotation="-269.06309314604556" QuadTreeMap="" Projection="Tangent" Name="test" FileType=".jpg" CenterY="32.04764555280646" CenterX="237.74265402647382" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="0" OffsetY="0" BaseTileLevel="0" BaseDegreesPerTile="1.609933067701945" ReferenceFrame="" MeanRadius="0">        <Credits>NASA, ESA, and The Hubble Heritage Team (STScI/AURA)</Credits>
         <CreditsUrl>https://www.spacetelescope.org/images/opo0834a/</CreditsUrl>
         <ThumbnailUrl>https://astropix.org/archive/stsci/2008-34a/stsci_2008-34a_100.jpg</ThumbnailUrl>
       </ImageSet>
