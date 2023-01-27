@@ -1,0 +1,10 @@
+<Folder Name="test" Group="Explorer" Searchable="False">  <VersionDependent>false</VersionDependent>
+
+
+<ImageSet Generic="False" DataSetType="Sky" BandPass="Visible" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/img_tagged.jpg" TileLevels="0" WidthFactor="2" Sparse="False" Rotation="0" QuadTreeMap="" Projection="Tangent" Name="test" FileType=".tif" CenterY="32.04719023639188" CenterX="237.74230571662002" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="0" OffsetY="0" BaseTileLevel="0" BaseDegreesPerTile="1.630057231048194" ReferenceFrame="" MeanRadius="0">        <Credits>NASA, ESA, and The Hubble Heritage Team (STScI/AURA)</Credits>
+        <CreditsUrl>https://www.spacetelescope.org/images/opo0834a/</CreditsUrl>
+        <ThumbnailUrl>https://astropix.org/archive/stsci/2008-34a/stsci_2008-34a_100.jpg</ThumbnailUrl>
+      </ImageSet>
+
+
+</Folder>

@@ -17,7 +17,8 @@ aladin.addCatalog(catalog);
 aladin.gotoRaDec("237.742", "32.047")
 aladin.setFoV(6)
 var url1 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/stsci.jpg'
-var url2 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/test2.jpg'
 var url3 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/img_tagged.jpg'
-// aladin.displayJPG(url2);
+var url4 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/img_repr_tag.jpg'
+
+aladin.displayJPG(url4,);
 // 
