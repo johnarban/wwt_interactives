@@ -87,7 +87,7 @@ async function wwt_load_after_ready() {
             console.log(myimageset)
             log(`${myimageset._name} is loaded`, 'success')
             myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
-            myimageset_layer.set_name(myimageset._name);
+            myimageset_layer.set_name("uses inversion header");
             myimageset_layer.opacity = 0.5;
             myimageset_layer.set_enabled(true);
             add_opacity_slider(myimageset_layer);
@@ -102,7 +102,7 @@ async function wwt_load_after_ready() {
             console.log(myimageset)
             log(`${myimageset._name} is loaded`, 'success')
             myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
-            myimageset_layer.set_name('using inversion header');
+            myimageset_layer.set_name('uses scale/rot');
             myimageset_layer.opacity = 0.5;
             myimageset_layer.set_enabled(true);
             add_opacity_slider(myimageset_layer);
