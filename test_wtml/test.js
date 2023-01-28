@@ -117,11 +117,12 @@ async function wwt_load_after_ready() {
         wwt_cl.setBackgroundImageByName(name)
         let imageset = wwt_cl.getImagesetByName(name);
         // console.log(imageset)
-        let layer = wwt_si.addImageSetLayer(imageset.url);
+        let layer = wwt_si.addImageSetLayer(imageset.get_url());
         layer.set_name("james");
         layer.opacity = 1;
         add_opacity_slider(layer);
         wwt_si.setImageSetLayerOrder(layer.id, 1);
+        log('james loaded', 'success')
     }, true) 
     // loadWTML('./blank.wtml', 'Carina Nebula')
     //     .then((imageset) => {
