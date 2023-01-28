@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="james" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="CRB" DataSetType="Sky" Dec="32.04764555280646" Magnitude="0" Name="james" Opacity="100" RA="15.849510268431588" Rotation="0" Thumbnail="thumb.jpg" ZoomLevel="11.638628085330762">
+    <ForegroundImageSet>
+<ImageSet
+          BandPass="Visible"
+          BaseDegreesPerTile="2.0607177714456375"
+          BaseTileLevel="0"
+          BottomsUp="False"
+          CenterX="237.61437908"
+          CenterY="32.3021488533"
+          DataSetType="Sky"
+          ElevationModel="False"
+          FileType=".png"
+          Generic="False"
+          Name="james"
+          OffsetX="0.25300471418436793"
+          OffsetY="-0.11370050772302749"
+          Projection="Tan"
+          QuadTreeMap=""
+          Rotation="-89.0608760837494"
+          Sparse="True"
+          StockSet="False"
+          TileLevels="2"
+          Url="../images/james_tile/{1}/{3}/{3}_{2}.png"
+          WidthFactor="2">        <ThumbnailUrl>thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

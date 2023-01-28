@@ -84,32 +84,45 @@ async function wwt_load_after_ready() {
         .then((imageset) => {
             myimageset = imageset;
             // wwt_cl.setBackgroundImageByName(imageset._name);
-            console.log(myimageset)
-            log(`${myimageset._name} is loaded`, 'success')
+            log(`${myimageset._name} is loaded: ${imagesetExists(name)}`, 'success')
+            
             myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
             myimageset_layer.set_name("uses inversion header");
-            myimageset_layer.opacity = 0.5;
+            myimageset_layer.opacity = 1;
             myimageset_layer.set_enabled(true);
             add_opacity_slider(myimageset_layer);
-            wwt_si.setImageSetLayerOrder(myimageset_layer.id, 1)
+            wwt_si.setImageSetLayerOrder(myimageset_layer.id, 0)
             
         });
     
-        loadWTML('../images/test.wtml', 'test_no_inv')
-        .then((imageset) => {
-            myimageset = imageset;
-            // wwt_cl.setBackgroundImageByName(imageset._name);
-            console.log(myimageset)
-            log(`${myimageset._name} is loaded`, 'success')
-            myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
-            myimageset_layer.set_name('uses scale/rot');
-            myimageset_layer.opacity = 0.5;
-            myimageset_layer.set_enabled(true);
-            add_opacity_slider(myimageset_layer);
-            wwt_si.setImageSetLayerOrder(myimageset_layer.id, 1)
+        // loadWTML('../images/tile/index_rel.wtml', 'test_no_inv')
+        // .then((imageset) => {
+        //     myimageset = imageset;
+        //     // wwt_cl.setBackgroundImageByName(imageset._name);
+        //     console.log(myimageset)
+        //     log(`${myimageset._name} is loaded`, 'success')
+        //     myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
+        //     myimageset_layer.set_name('uses scale/rot');
+        //     myimageset_layer.opacity = 0.5;
+        //     myimageset_layer.set_enabled(true);
+        //     add_opacity_slider(myimageset_layer);
+        //     wwt_si.setImageSetLayerOrder(myimageset_layer.id, 1)
             
-        });
+        // });
         
+    
+    wwtlib.Wtml.getWtmlFile('../images/james_tile/index_rel.wtml', () => {
+        let name = 'james';
+        console.log('index_rel.wtml loaded', imagesetExists(name));
+        wwt_cl.setBackgroundImageByName(name)
+        let imageset = wwt_cl.getImagesetByName(name);
+        // console.log(imageset)
+        let layer = wwt_si.addImageSetLayer(imageset.url);
+        layer.set_name("james");
+        layer.opacity = 1;
+        add_opacity_slider(layer);
+        wwt_si.setImageSetLayerOrder(layer.id, 1);
+    }, true) 
     // loadWTML('./blank.wtml', 'Carina Nebula')
     //     .then((imageset) => {
     //         // wwt_cl.setBackgroundImageByName(imageset._name);
@@ -204,7 +217,7 @@ function set_ra_dec_display() {
     let RA = wwt_si.getRA();
     let DEC = wwt_si.getDec();
     let FOV = wwt_si.get_fov();
-    document.getElementById("ra_val").innerHTML = parseFloat(RA).toFixed(2);
+    document.getElementById("ra_val").innerHTML = parseFloat(RA*15).toFixed(2);
     document.getElementById("dec_val").innerHTML = parseFloat(DEC).toFixed(2);
     document.getElementById("fov_val").innerHTML = parseFloat(FOV).toFixed(2);
 }
