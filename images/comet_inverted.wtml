@@ -1,0 +1,11 @@
+<Folder Name="comet" Group="Explorer" Searchable="False">  <VersionDependent>false</VersionDependent>
+<Place Name="comet" DataSetType="Sky" RA="15.840958605333332" Dec="32.3021488533" Rotation="0" ZoomLevel="10">
+<ForegroundImageSet>
+<ImageSet Generic="False" DataSetType="Sky" BandPass="Visible" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/comet_inverted_tagged.jpg" TileLevels="0" WidthFactor="2" Sparse="False" Rotation="90.93690685395443" QuadTreeMap="" Projection="Tangent" Name="comet" FileType=".jpg" CenterY="32.3021488533" CenterX="237.61437908" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="-0.5527587139770289" OffsetY="-0.6837291217103147" BaseTileLevel="0" BaseDegreesPerTile="1.1419001352039257" ReferenceFrame="" MeanRadius="0">        <Credits>NASA, ESA, and The Hubble Heritage Team (STScI/AURA)</Credits>
+        <CreditsUrl>https://www.spacetelescope.org/images/opo0834a/</CreditsUrl>
+        <ThumbnailUrl>https://astropix.org/archive/stsci/2008-34a/stsci_2008-34a_100.jpg</ThumbnailUrl>
+      </ImageSet>
+  </ForegroundImageSet>
+</Place>
+
+</Folder>
