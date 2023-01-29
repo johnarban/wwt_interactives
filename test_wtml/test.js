@@ -2,9 +2,9 @@
 
 
 // Global variables for imagesets
-let myimageset = null
 
-let myimageset_layer = null
+
+
 
 // WWT scritpInterface and WWTControl
 let wwt_si = null
@@ -80,50 +80,25 @@ async function wwt_load_after_ready() {
 
     // Load external wtml files and register them with WWT
 
-    loadWTML('../images/test_scale.wtml', 'test')
-        .then((imageset) => {
-            myimageset = imageset;
-            // wwt_cl.setBackgroundImageByName(imageset._name);
-            log(`${myimageset._name} is loaded: ${imagesetExists(name)}`, 'success')
-            
-            myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
-            myimageset_layer.set_name("uses inversion header");
-            myimageset_layer.opacity = 1;
-            myimageset_layer.set_enabled(true);
-            add_opacity_slider(myimageset_layer);
-            wwt_si.setImageSetLayerOrder(myimageset_layer.id, 0)
-            
-        });
-    
-        // loadWTML('../images/tile/index_rel.wtml', 'test_no_inv')
-        // .then((imageset) => {
-        //     myimageset = imageset;
-        //     // wwt_cl.setBackgroundImageByName(imageset._name);
-        //     console.log(myimageset)
-        //     log(`${myimageset._name} is loaded`, 'success')
-        //     myimageset_layer = wwt_si.addImageSetLayer(myimageset.url);
-        //     myimageset_layer.set_name('uses scale/rot');
-        //     myimageset_layer.opacity = 0.5;
-        //     myimageset_layer.set_enabled(true);
-        //     add_opacity_slider(myimageset_layer);
-        //     wwt_si.setImageSetLayerOrder(myimageset_layer.id, 1)
-            
-        // });
+    loadWTML2('../images/comet_rotated.wtml', 'comet_rotated', opacity = 0)
         
+    loadWTML2('../images/comet_inverted.wtml', 'comet', opacity = .5)
+       
     
-    wwtlib.Wtml.getWtmlFile('../images/james_tile/index_rel.wtml', () => {
-        let name = 'james';
-        console.log('index_rel.wtml loaded', imagesetExists(name));
-        wwt_cl.setBackgroundImageByName(name)
-        let imageset = wwt_cl.getImagesetByName(name);
-        // console.log(imageset)
-        let layer = wwt_si.addImageSetLayer(imageset.get_url());
-        layer.set_name("james");
-        layer.opacity = 1;
-        add_opacity_slider(layer);
-        wwt_si.setImageSetLayerOrder(layer.id, 1);
-        log('james loaded', 'success')
-    }, true) 
+    // wwtlib.Wtml.getWtmlFile('../images/james_tile/index_rel.wtml', () => {
+    //     let name = 'james';
+    //     console.log('index_rel.wtml loaded', imagesetExists(name));
+    //     wwt_cl.setBackgroundImageByName(name)
+    //     let imageset = exact_getImagesetByName(name);
+    //     // console.log(imageset)
+    //     let layer = wwt_si.addImageSetLayer(imageset.get_url());
+    //     layer.set_enabled(true)
+    //     layer.set_name("james");
+    //     layer.opacity = 1;
+    //     add_opacity_slider(layer);
+    //     wwt_si.setImageSetLayerOrder(layer.id, 1);
+    //     log('james loaded', 'success')
+    // }, true) 
     // loadWTML('./blank.wtml', 'Carina Nebula')
     //     .then((imageset) => {
     //         // wwt_cl.setBackgroundImageByName(imageset._name);
@@ -138,13 +113,30 @@ async function wwt_load_after_ready() {
     // roll_deg is in radians :/ 1.8 radians = 103.5 degrees 
     // intial fov is 60deg, need move there first so we can zoom in in a time independent manner
     wwt_cl.gotoRADecZoom(ra_hours = 237.742 / 15, dec_deg = 32.047, instant = true)
-    wwt_cl.gotoRADecZoom(ra_hours = 237.742 / 15, dec_deg = 32.047, zoom=10, instant = true)
+    wwt_cl.gotoRADecZoom(ra_hours = 237.742 / 15, dec_deg = 32.047, zoom=15, instant = true)
     
     
     
     // set_ra_dec_display()
 
 }
+
+function loadWTML2(filename, name, opacity = 1) {
+    loadWTML(filename, name)
+    .then((imageset) => {
+        // wwt_cl.setBackgroundImageByName(imageset._name);
+        log(`${imageset._name} is loaded`, 'success')
+        imageset_layer = wwt_si.addImageSetLayer(imageset.url);
+        log(imageset_layer)
+        imageset_layer.set_name(imageset._name);
+        imageset_layer.opacity = opacity;
+        imageset_layer.set_enabled(true);
+        add_opacity_slider(imageset_layer);
+        wwt_si.setImageSetLayerOrder(imageset_layer.id, 1)
+        
+    });
+}
+
 
 // These two function makes sure the imageset is fully loaded
 // adapted from stackoverflow.com/questions/30505960/use-promise-to-wait-until-polled-condition-is-satisfied
@@ -153,11 +145,12 @@ function ensureImagesetReady(name) {
     return new Promise(function (resolve, reject) {
         (function waitForImagesetReady() {
             log('ensuring ' + name + ' ImageSet is ready', 'info')
-            if (imagesetExists(name)) return resolve(wwt_cl.getImagesetByName(name));
+            if (imagesetExists(name)) return resolve(exact_getImagesetByName(name));
             setTimeout(waitForImagesetReady, 1);
         })();
     });
 }
+
 
 async function loadWTML(filename, name, callback = () => { }, loadChildFolders = false) {
     // function to load wtml files
@@ -169,7 +162,7 @@ function getImageSetLayerByName(name) {
     layers = wwt_si.getLayers() // object
 
     for (layer in layers) {
-        if (layers[layer].get_name() == name) {
+        if (layers[layer].get_name() === name) {
             return layers[layer]
         }
     }
@@ -185,9 +178,31 @@ function add_all_allsky_datasets() {
     log('added all allsky datasets', 'info', 1, false)
 }
 
+function exact_getImagesetByName(name) {
+    // get list of imagesets
+    theimageset = null
+    imagesets = wwtlib.WWTControl.getImageSets()
+    imagesets.forEach(item => {
+        set_name = item['_name'];
+        if (set_name == name) { theimageset = item }
+    })
+    return theimageset
+}
+
 function imagesetExists(name) {
     // check if imageset is is registered with WWT
-    return !(wwt_cl.getImagesetByName(name) == null);
+    perhaps_a_set = exact_getImagesetByName(name)
+    exists = !(perhaps_a_set == null);
+    if (exists) {
+        // chdeck names match
+        real_name = perhaps_a_set._name
+        if (real_name != name) {
+            log(`${name} exists but names does not match imageset name ${real_name}`, 'error', 0, false)
+        } else {
+            log(`${name} exists`, 'success', 0, false)
+        }
+    }
+    return exists
 }
 
 
@@ -248,7 +263,7 @@ function fov_to_zoom(fov) {
 
 function add_opacity_slider(layer) {
     // create a slider for the layer
-    log("creating slider for layer: " + layer.get_name(), 'info')
+    log("creating slider for layer: " + layer.get_name(), 'important')
     div = document.getElementById("slidercontainer");
     containing_div = document.createElement("div");
     containing_div.className = "slider_with_name";
@@ -268,10 +283,11 @@ function add_opacity_slider(layer) {
     span.classList.add("slider_label");
     span.innerHTML = layer.get_name();
     span.onclick = () => {
-        image = wwt_cl.getImagesetByName(layer.get_name())
+        image = exact_getImagesetByName(layer.get_name())
         let x = image._centerX/15
         let y = image._centerY
-        wwt_cl.gotoRADecZoom(ra_hours = x, dec_deg = y, instant = true)
+        console.log(x*15, y)
+        wwt_cl.gotoRADecZoom(ra_hours = x, dec_deg = y, zoom = 0, instant = true)
         if (layer.opacity < .5) {
             input.value = 50;
             layer.set_opacity(.5);
