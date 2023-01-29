@@ -80,9 +80,11 @@ async function wwt_load_after_ready() {
 
     // Load external wtml files and register them with WWT
 
-    loadWTML2('../images/comet_rotated.wtml', 'comet_rotated', opacity = 0)
+    // loadWTML2('../images/comet_rotated.wtml', 'comet_rotated', opacity = 0.25)
         
-    loadWTML2('../images/comet_inverted.wtml', 'comet', opacity = .5)
+    loadWTML2('../images/comet_inverted.wtml', 'comet', opacity = .55)
+    
+    // loadWTML2('../images/avm_comet_inverted.wtml', 'comet_avm', opacity = .5)
        
     
     // wwtlib.Wtml.getWtmlFile('../images/james_tile/index_rel.wtml', () => {
@@ -127,7 +129,7 @@ function loadWTML2(filename, name, opacity = 1) {
         // wwt_cl.setBackgroundImageByName(imageset._name);
         log(`${imageset._name} is loaded`, 'success')
         imageset_layer = wwt_si.addImageSetLayer(imageset.url);
-        log(imageset_layer)
+        // console.log(imageset_layer)
         imageset_layer.set_name(imageset._name);
         imageset_layer.opacity = opacity;
         imageset_layer.set_enabled(true);
@@ -146,7 +148,7 @@ function ensureImagesetReady(name) {
         (function waitForImagesetReady() {
             log('ensuring ' + name + ' ImageSet is ready', 'info')
             if (imagesetExists(name)) return resolve(exact_getImagesetByName(name));
-            setTimeout(waitForImagesetReady, 1);
+            setTimeout(waitForImagesetReady, 100);
         })();
     });
 }
