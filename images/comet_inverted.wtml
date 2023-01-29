@@ -1,11 +1,12 @@
-<Folder Name="comet" Group="Explorer" Searchable="False">  <VersionDependent>false</VersionDependent>
-<Place Name="comet" DataSetType="Sky" RA="15.849354541997139" Dec="32.04969302327166" Rotation="0" ZoomLevel="10">
-<ForegroundImageSet>
-<ImageSet Generic="False" DataSetType="Sky" BandPass="Visible" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/comet_inverted_tagged.jpg" TileLevels="0" WidthFactor="2" Sparse="True" Rotation="-89.06309314604557" QuadTreeMap="" Projection="SkyImage" Name="comet" FileType=".jpg" CenterY="32.04764555280646" CenterX="237.74265402647382" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="400.5" OffsetY="284.0" BaseTileLevel="0" BaseDegreesPerTile="0.0020154512468525984" ReferenceFrame="" MeanRadius="0">        <Credits>NASA, ESA, and The Hubble Heritage Team (STScI/AURA)</Credits>
-        <CreditsUrl>https://www.spacetelescope.org/images/opo0834a/</CreditsUrl>
-        <ThumbnailUrl>https://astropix.org/archive/stsci/2008-34a/stsci_2008-34a_100.jpg</ThumbnailUrl>
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="comet" Group="Explorer" Searchable="False">  
+  <VersionDependent>false</VersionDependent>
+  <Place Name="comet" DataSetType="Sky" RA="15.849354541997139" Dec="32.04969302327166" Rotation="0" ZoomLevel="10">
+    <ForegroundImageSet>
+      <ImageSet DemUrl="" MSRCommunityId="0" MSRComponentId="0" Permission="0" Generic="False" DataSetType="Sky" BandPass="Visible" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/comet_inverted_tagged.jpg" TileLevels="0" WidthFactor="2" Sparse="True" Rotation="-89.06309314604557" QuadTreeMap="" Projection="SkyImage" Name="comet" FileType=".jpg" CenterY="32.04764555280646" CenterX="237.74265402647382" BottomsUp="False" StockSet="False" ElevationModel="False" OffsetX="400.5" OffsetY="284.0" BaseTileLevel="0" BaseDegreesPerTile="0.0020154512468525984" ReferenceFrame="" MeanRadius="0">        
+        <Credits />
+        <CreditsUrl />
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
       </ImageSet>
-  </ForegroundImageSet>
-</Place>
-
+    </ForegroundImageSet>
+  </Place>
 </Folder>
