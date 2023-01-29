@@ -7,6 +7,8 @@ function log(message, style, indent = 0, border = false) {
         style = 'background: rgb(170, 255, 170); color: black; font-weight: bold';
     } else if (style == 'info') {
         style = 'background: rgb(170, 170, 255); color: black; font-weight: bold';
+    } else if (style == "important") { 
+        style = 'background: rgb(255, 255, 170); color: black; font-weight: bold';
     } else {
         style = ''
     }
