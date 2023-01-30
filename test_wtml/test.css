@@ -49,7 +49,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeLegibility;
     font-family: 'Roboto' ;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 
@@ -166,11 +166,11 @@ img.thumbnail_selected {
 div.slidercontainer  {
     position: absolute;
     bottom: 3.5em;
-    margin-left: auto;
+    margin-left: 5pt;
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 70%;
+    width: 15%;
 
     justify-content: center;
     align-items: middle;
@@ -193,7 +193,7 @@ div.slider_with_name {
 span.slider_label {
   font-size: .8em;
   /* margin-right: 1em; */
-  width: 8em;
+  width: fit-content;
   text-align: center;
   /* min-width: min-content; */
 }
