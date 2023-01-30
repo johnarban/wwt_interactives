@@ -1,5 +1,5 @@
-<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="692_2022E3_02_01_23" Group="Explorer" Searchable="False">
-  <Place Name="692_2022E3_02_01_23" DataSetType="Sky" RA="15.849510268431588" Dec="32.04764555280646" Rotation="0" ZoomLevel="10">
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="694_2022E3_14_01_23" Group="Explorer" Searchable="False">
+  <Place Name="694_2022E3_14_01_23" DataSetType="Sky" RA="15.740159544593755" Dec="40.72867893611561" Rotation="0" ZoomLevel="10">
     <ForegroundImageSet>
       <ImageSet       DemUrl=""
                 MSRCommunityId="0"
@@ -8,24 +8,24 @@
                 Generic="False"
                 DataSetType="Sky"
                 BandPass="Visible"
-                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/692_2022E3_02_01_23_inverted_tagged.jpg"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/694_2022E3_14_01_23_inverted_tagged.jpg"
                 TileLevels="0"
                 WidthFactor="2"
                 Sparse="True"
-                Rotation="-89.06309314604557"
+                Rotation="89.72179970334962"
                 QuadTreeMap=""
                 Projection="SkyImage"
-                Name="692_2022E3_02_01_23"
+                Name="694_2022E3_14_01_23"
                 FileType=".jpg"
-                CenterY="32.04764555280646"
-                CenterX="237.74265402647382"
+                CenterY="40.72867893611561"
+                CenterX="236.10239316890633"
                 BottomsUp="False"
                 StockSet="False"
                 ElevationModel="False"
                 OffsetX="400.5"
-                OffsetY="284.0"
+                OffsetY="314.0"
                 BaseTileLevel="0"
-                BaseDegreesPerTile="0.0020139332190545426"
+                BaseDegreesPerTile="0.0018509245309162045"
                 ReferenceFrame=""
                 MeanRadius="0">
         <Description>description</Description>
