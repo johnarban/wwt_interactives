@@ -171,6 +171,7 @@ div.slidercontainer  {
     left: 0;
     right: 0;
     width: 15%;
+    max-height: 95vh;
     justify-content: center;
     align-items: middle;
     z-index: 100;
