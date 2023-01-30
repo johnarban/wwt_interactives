@@ -88,7 +88,7 @@ async function wwt_load_after_ready() {
     
     // loadWTML2('../images/all.wtml', 'comet', opacity = .55)
     
-    loadWTML2('../images/comet_inverted.wtml', 'comet', opacity = 1)
+    // loadWTML2('../images/comet_inverted.wtml', 'comet', opacity = 1)
     // files are 
     // 687_2022E3_18_12.wtml       690_2022E3_29_12.wtml       693_2022E3_11_01_23.wtml    696_2022E3_20_01_23_2.wtml  699_2022E3_20_01_23_5.wtml  comet_inverted.wtml
     // 688_2022E3_27_12.wtml       691_2022E3_01_01_23.wtml    694_2022E3_14_01_23.wtml    697_2022E3_20_01_23_3.wtml  700_2022E3_20_01_23_6.wtml
@@ -101,12 +101,12 @@ async function wwt_load_after_ready() {
     loadWTML2('../images/692_2022E3_02_01_23.wtml', '692_2022E3_02_01_23', opacity = 1) 
     loadWTML2('../images/693_2022E3_11_01_23.wtml', '693_2022E3_11_01_23', opacity = 1)
     loadWTML2('../images/694_2022E3_14_01_23.wtml', '694_2022E3_14_01_23', opacity = 1)
+    loadWTML2('../images/700_2022E3_20_01_23_6.wtml', '700_2022E3_20_01_23_6', opacity = 1) // wonky alignment
     loadWTML2('../images/695_2022E3_20_01_23_1.wtml', '695_2022E3_20_01_23_1', opacity = 1)
-    loadWTML2('../images/696_2022E3_20_01_23_2.wtml', '696_2022E3_20_01_23_2', opacity = 1)
-    loadWTML2('../images/697_2022E3_20_01_23_3.wtml', '697_2022E3_20_01_23_3', opacity = 1)
     loadWTML2('../images/698_2022E3_20_01_23_4.wtml', '698_2022E3_20_01_23_4', opacity = 1)
     loadWTML2('../images/699_2022E3_20_01_23_5.wtml', '699_2022E3_20_01_23_5', opacity = 1)
-    loadWTML2('../images/700_2022E3_20_01_23_6.wtml', '700_2022E3_20_01_23_6', opacity = 1)
+    loadWTML2('../images/697_2022E3_20_01_23_3.wtml', '697_2022E3_20_01_23_3', opacity = 1)
+    loadWTML2('../images/696_2022E3_20_01_23_2.wtml', '696_2022E3_20_01_23_2', opacity = 1)
     
        
     
@@ -157,7 +157,7 @@ function loadWTML2(filename, name, opacity = 1) {
         imageset_layer.opacity = opacity;
         imageset_layer.set_enabled(true);
         add_opacity_slider(imageset_layer);
-        wwt_si.setImageSetLayerOrder(imageset_layer.id, 1)
+        // wwt_si.setImageSetLayerOrder(imageset_layer.id, 1)
         
     });
 }
@@ -312,7 +312,7 @@ function add_opacity_slider(layer) {
         let x = image._centerX/15
         let y = image._centerY
         console.log(x*15, y)
-        wwt_cl.gotoRADecZoom(ra_hours = x, dec_deg = y, zoom = 0, instant = true)
+        wwt_cl.gotoRADecZoom(ra_hours = x, dec_deg = y, zoom = 7, instant = true)
         if (layer.opacity < .5) {
             input.value = 50;
             layer.set_opacity(.5);
