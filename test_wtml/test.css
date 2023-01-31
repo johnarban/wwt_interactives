@@ -164,17 +164,18 @@ img.thumbnail_selected {
 
 /* position absolute center on bottom of screen */
 div.slidercontainer  {
-    position: absolute;
-    bottom: 3.5em;
-    margin-left: 5pt;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    width: 15%;
-    max-height: 95vh;
-    justify-content: center;
-    align-items: middle;
-    z-index: 100;
+  position: absolute;
+  bottom: 3.5em;
+  margin-left: 5pt;
+  margin-right: auto;
+  margin-bottom: 2em;
+  top: 2em;
+  left: 0;
+  width: 15%;
+  justify-content: center;
+  align-items: middle;
+  z-index: 100;
+  overflow: scroll;
 }
 
 div.slider_with_name {
