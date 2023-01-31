@@ -11,8 +11,8 @@ input[type="range"] {
     transition: opacity .2s;
     --track-height: 0.4em;
     --thumb-radius: calc(1.5*var(--track-height));
-    --thumb-color: rgb(210, 162, 240);
-    --track-color: rgba(109, 220, 213, 0.8);
+    --thumb-color: rgb(157, 105, 163);
+    --track-color: rgba(254, 254, 254, 0.5);
   }
   
   input[type="range"]:hover {
