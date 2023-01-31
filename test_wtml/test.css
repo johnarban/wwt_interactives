@@ -177,7 +177,7 @@ div.slidercontainer  {
   align-items: middle;
   z-index: 100;
   overflow: scroll;
-  outline: 1px solid rgb(191, 0, 255);
+  /* outline: 1px solid rgb(191, 0, 255); */
 }
 
 div.slider_with_name {
