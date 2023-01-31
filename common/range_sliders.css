@@ -1,4 +1,4 @@
-
+/* from https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/ */
 input[type="range"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -9,7 +9,10 @@ input[type="range"] {
     padding: 0;
     opacity: 0.7;
     transition: opacity .2s;
-    --track-height: 1.2em;
+    --track-height: 0.4em;
+    --thumb-radius: calc(1.5*var(--track-height));
+    --thumb-color: rgb(210, 162, 240);
+    --track-color: rgba(109, 220, 213, 0.8);
   }
   
   input[type="range"]:hover {
@@ -21,40 +24,41 @@ input[type="range"] {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
-    width: calc(0.9*var(--track-height));
-    height: calc(0.9*var(--track-height));
-    margin-top: calc(0.05*var(--track-height));
+    width: var(--thumb-radius);
+    height: var(--thumb-radius);
+    /* margin-top (track height in pixels / 2) - (thumb height in pixels /2)  */
+    margin-top: calc(var(--track-height) / 2 - var(--thumb-radius) / 2);
     border-radius: 50%;
-    background: #11d4f287;
+    background: var(--thumb-color);
+    /* outline: 2px solid red; */
+  }
+  
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: var(--thumb-radius);
+    height: var(--thumb-radius);
+    margin-top: calc(var(--track-height) / 2 - var(--thumb-radius) / 2);
+    border-radius: 50%;
+    border: none;
+    background: var(--thumb-color);
     cursor: pointer;
   }
   
-  
+
   input[type="range"]::-webkit-slider-runnable-track {
-    background: #053a5f;
+    background: var(--track-color);
     /* outline: 1px solid white; */
     border-radius: calc(var(--track-height) / 2);
     height: var(--track-height);
     margin-top: 0;
   }
   
-  
-input[type="range"]::-moz-range-thumb {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    width: calc(0.9*var(--track-height));
-    height: calc(0.9*var(--track-height));
-    margin-top: calc(0.05*var(--track-height));
-    border-radius: 50%;
-    border: none;
-    background: #11d4f287;
-    cursor: pointer;
-  }
-  
+
   
 input[type="range"]::-moz-range-track {
-    background: #053a5f;
+    background: var(--track-color)
     /* outline: 1px solid white; */
     border-radius: calc(var(--track-height) / 2);
     height: var(--track-height);
