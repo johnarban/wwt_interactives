@@ -101,13 +101,14 @@ async function wwt_load_after_ready() {
     loadWTML2('../images/692_2022E3_02_01_23.wtml', '692_2022E3_02_01_23', opacity = 1) 
     loadWTML2('../images/693_2022E3_11_01_23.wtml', '693_2022E3_11_01_23', opacity = 1)
     loadWTML2('../images/694_2022E3_14_01_23.wtml', '694_2022E3_14_01_23', opacity = 1)
-    loadWTML2('../images/700_2022E3_20_01_23_6.wtml', '700_2022E3_20_01_23_6', opacity = 1) // wonky alignment
-    loadWTML2('../images/695_2022E3_20_01_23_1.wtml', '695_2022E3_20_01_23_1', opacity = 1)
-    loadWTML2('../images/698_2022E3_20_01_23_4.wtml', '698_2022E3_20_01_23_4', opacity = 1)
-    loadWTML2('../images/699_2022E3_20_01_23_5.wtml', '699_2022E3_20_01_23_5', opacity = 1)
-    loadWTML2('../images/697_2022E3_20_01_23_3.wtml', '697_2022E3_20_01_23_3', opacity = 1)
-    loadWTML2('../images/696_2022E3_20_01_23_2.wtml', '696_2022E3_20_01_23_2', opacity = 1)
+    loadWTML2('../images/696_2022E3_20_01_23_2.wtml', '696_2022E3_20_01_23_2', opacity = 1) // aligned
+    loadWTML2('../images/697_2022E3_20_01_23_3.wtml', '697_2022E3_20_01_23_3', opacity = 1) // not well aligned
+    loadWTML2('../images/699_2022E3_20_01_23_5.wtml', '699_2022E3_20_01_23_5', opacity = 1) // not aligned
+    loadWTML2('../images/698_2022E3_20_01_23_4.wtml', '698_2022E3_20_01_23_4', opacity = 1) // not aligned
+    loadWTML2('../images/695_2022E3_20_01_23_1.wtml', '695_2022E3_20_01_23_1', opacity = 1) // aligned
+    loadWTML2('../images/700_2022E3_20_01_23_6.wtml', '700_2022E3_20_01_23_6', opacity = 1) // not aligned
     
+
        
     
     // wwtlib.Wtml.getWtmlFile('../images/james_tile/index_rel.wtml', () => {
