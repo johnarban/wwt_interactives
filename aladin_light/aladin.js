@@ -1,5 +1,5 @@
 console.log('loading aladin.js');
-var aladin = A.aladin('#aladin-lite-div', { survey: "P/DSS2/color", fov: 60 , cooFrame: 'ICRS'});
+var aladin = A.aladin('#aladin-lite-div', { survey: "P/DSS2/color", fov: 60 , cooFrame: 'ICRSd'});
 
 var draper = 'III/135A/catalog'
 var brightstar = 'V/50/catalog'
@@ -17,7 +17,11 @@ aladin.addCatalog(catalog);
 aladin.gotoRaDec("237.742", "32.047")
 aladin.setFoV(6)
 var url1 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/stsci.jpg'
-var url2 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/comet_inverted_tagged.jpg'
+var url2 = 'https://raw.githubusercontent.com/cosmicds/minids/main/green-comet/src/assets/692_2022E3_02_01_23_inverted_tagged.jpg'
 
-aladin.displayJPG(url2,);
+aladin.displayJPG(url2, {}, (ra, dec,fov) => {
+    console.log('displayJPG callback', ra, dec, fov)
+}
+    );
+
 // 
