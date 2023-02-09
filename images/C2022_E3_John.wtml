@@ -140,9 +140,59 @@
       </ImageSet>
     </ForegroundImageSet>
   </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="32.04764555280646" Magnitude="0" Name="692_2022E3_02_01_23" Opacity="100" RA="15.849510268431588" Rotation="0" ZoomLevel="10">
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="58.966012587662874" Magnitude="0" Name="701_2022E3_23_01_23" Opacity="100" RA="15.271533918209276" Rotation="0" ZoomLevel="10">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0020139332190545426" BaseTileLevel="0" BottomsUp="False" CenterX="237.74265402647382" CenterY="32.04764555280646" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="692_2022E3_02_01_23" OffsetX="400.5" OffsetY="284" Projection="SkyImage" QuadTreeMap="" Rotation="-89.06309314604557" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/692_2022E3_02_01_23_inverted_tagged.jpg" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0015046523789178131" BaseTileLevel="0" BottomsUp="False" CenterX="229.07300877313912" CenterY="58.966012587662874" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="701_2022E3_23_01_23" OffsetX="750.5" OffsetY="1060" Projection="SkyImage" QuadTreeMap="" Rotation="90.1788099328927" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/701_2022E3_23_01_23_inverted_tagged.jpg" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="61.21199499018043" Magnitude="0" Name="702_2022E3_24_01_23_1" Opacity="100" RA="15.135065130784286" Rotation="0" ZoomLevel="10">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0015114672495204523" BaseTileLevel="0" BottomsUp="False" CenterX="227.0259769617643" CenterY="61.21199499018043" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="702_2022E3_24_01_23_1" OffsetX="750.5" OffsetY="1109.5" Projection="SkyImage" QuadTreeMap="" Rotation="-89.85332625059537" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/702_2022E3_24_01_23_1_inverted_tagged.jpg" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="62.54128255525035" Magnitude="0" Name="703_2022E3_24_01_23_2" Opacity="100" RA="14.979153471394078" Rotation="0" ZoomLevel="10">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0016850083428044354" BaseTileLevel="0" BottomsUp="False" CenterX="224.68730207091116" CenterY="62.54128255525035" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="703_2022E3_24_01_23_2" OffsetX="1000.5" OffsetY="660" Projection="SkyImage" QuadTreeMap="" Rotation="-1.880159957122086" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/703_2022E3_24_01_23_2_inverted_tagged.jpg" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="79.4753231991739" Magnitude="0" Name="704_2022E3_29_01_23" Opacity="100" RA="11.545937068481974" Rotation="0" ZoomLevel="10">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0008365058835737894" BaseTileLevel="0" BottomsUp="False" CenterX="173.1890560272296" CenterY="79.4753231991739" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="704_2022E3_29_01_23" OffsetX="950.5" OffsetY="639.5" Projection="SkyImage" QuadTreeMap="" Rotation="90.71376566973909" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/704_2022E3_29_01_23_inverted_tagged.jpg" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="42.42479591151067" Magnitude="0" Name="705_2022E3_06_02_23" Opacity="100" RA="5.061963928449675" Rotation="0" ZoomLevel="10">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0008020867999629951" BaseTileLevel="0" BottomsUp="False" CenterX="75.92945892674513" CenterY="42.42479591151067" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="705_2022E3_06_02_23" OffsetX="700.5" OffsetY="1042.5" Projection="SkyImage" QuadTreeMap="" Rotation="-179.70032194448078" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/705_2022E3_06_02_23_inverted_tagged.jpg" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="42.755012148845736" Magnitude="0" Name="706_2022E3_06_02_23_2" Opacity="100" RA="5.0605974513331855" Rotation="0" ZoomLevel="10">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0008906581901387456" BaseTileLevel="0" BottomsUp="False" CenterX="75.90896176999779" CenterY="42.755012148845736" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="706_2022E3_06_02_23_2" OffsetX="950.5" OffsetY="673" Projection="SkyImage" QuadTreeMap="" Rotation="90.67799676220719" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/706_2022E3_06_02_23_2_inverted_tagged.jpg" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
