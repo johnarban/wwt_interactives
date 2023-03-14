@@ -115,7 +115,7 @@ async function wwt_load_after_ready() {
             (imageset) => {
                 log(`${imageset._name} is loaded`, 'success')
                 add_image_option(imageset._name, 'Infrared');
-                set_background_image(imageset._name);
+                // set_background_image(imageset._name);
             });
 
     // use list of imagesets to add to the menu
