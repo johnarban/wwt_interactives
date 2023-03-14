@@ -1,37 +1,37 @@
 <Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="JWST (NIRCam/MIRI)" Group="Explorer" Searchable="False">
-  <Place Name="Wolf-Rayet_124" DataSetType="Sky" RA="19.191949419296805" Dec="16.860364447073678" Rotation="0" ZoomLevel="0">
+  <Place Name="JWST (NIRCam/MIRI)" DataSetType="Sky" RA="19.191949419296805" Dec="16.860364447073678" Rotation="0" ZoomLevel="0">
     <ForegroundImageSet>
-      <ImageSet       DemUrl=""
-                MSRCommunityId="0"
-                MSRComponentId="0"
-                StockSet="False"
-                Permission="0"
-                Generic="False"
-                DataSetType="Sky"
-                ElevationModel="False"
-                QuadTreeMap=""
-                Projection="SkyImage"
-                Sparse="True"
-                BandPass="Visible"
-                Name="JWST (NIRCam/MIRI)"
-                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/wr124_jwst.jpg"
-                FileType=".jpg"
-                TileLevels="0"
-                WidthFactor="2"
-                BaseTileLevel="0"
-                BaseDegreesPerTile="8.3414756314592e-06"
-                MeanRadius="0"
-                Rotation="40.36000000000038"
-                BottomsUp="False"
-                CenterY="16.860364447073678"
-                CenterX="287.87924128945207"
-                OffsetX="2208.5"
-                OffsetY="2175.0"
-                ReferenceFrame="">
+      <ImageSet       DemUrl=
+                MSRCommunityId=0
+                MSRComponentId=0
+                StockSet=False
+                Permission=0
+                Generic=False
+                DataSetType=Sky
+                ElevationModel=False
+                QuadTreeMap=
+                Projection=SkyImage
+                Sparse=True
+                BandPass=Visible
+                Name=JWST (NIRCam/MIRI)
+                Url=https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/wr124_jwst.jpg
+                FileType=.jpg
+                TileLevels=0
+                WidthFactor=2
+                BaseTileLevel=0
+                BaseDegreesPerTile=8.3414756314592e-06
+                MeanRadius=0
+                Rotation=40.6399999999996
+                BottomsUp=False
+                CenterY=16.860364447073678
+                CenterX=287.87924128945207
+                OffsetX=2208.5
+                OffsetY=2175.0
+                ReferenceFrame=>
         <Description>description</Description>
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
-        <ThumbnailUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/JWST_decal.svg/478px-JWST_decal.svg.png</ThumbnailUrl>
+        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>

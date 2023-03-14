@@ -84,6 +84,7 @@ async function wwt_load_after_ready() {
     // Load external wtml files and register them with WWT
     log("loading WTML", 'info', 1, true)
     let wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/jwst_sxsw2.wtml"
+    // wtmlurl = "./jwst_sxsw2.wtml"
     loadWTML(wtmlurl, 'JWST (NIRCam/MIRI)')
         .then((imageset) => {
             log(`${imageset._name} is loaded`, 'success')
@@ -98,6 +99,7 @@ async function wwt_load_after_ready() {
         });
 
     wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/hst_sxsw2.wtml"
+    // wtmlurl = './hst_sxsw2.wtml'
     loadWTML(wtmlurl, 'Hubble')
         .then((imageset) => {
             log(`${imageset._name} is loaded`, 'success')
