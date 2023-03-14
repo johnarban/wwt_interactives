@@ -83,7 +83,8 @@ async function wwt_load_after_ready() {
 
     // Load external wtml files and register them with WWT
     log("loading WTML", 'info', 1, true)
-    loadWTML('./jwst_sxsw2.wtml', 'JWST (NIRCam/MIRI)')
+    let wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/jwst_sxsw2.wtml"
+    loadWTML(wtmlurl, 'JWST (NIRCam/MIRI)')
         .then((imageset) => {
             log(`${imageset._name} is loaded`, 'success')
             jwst_imageset = imageset;
@@ -96,8 +97,8 @@ async function wwt_load_after_ready() {
             wwt_si.setImageSetLayerOrder(jwst_layer.id,1)
         });
 
-    
-    loadWTML('./hst_sxsw2.wtml', 'Hubble')
+    wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/hst_sxsw2.wtml"
+    loadWTML(wtmlurl, 'Hubble')
         .then((imageset) => {
             log(`${imageset._name} is loaded`, 'success')
             // jwst_imageset = imageset;
@@ -128,8 +129,8 @@ async function wwt_load_after_ready() {
     const dec = 16.8606111
     wwt_cl.gotoRADecZoom(ra_hours = ra, dec_deg = dec, instant = true, roll_deg = 1.8)
     wwt_cl.gotoRADecZoom(ra_hours = ra, dec_deg = dec, zoom = fov_to_zoom(.05), instant = true, roll_deg = 1.8)
-    set_ra_dec_display()
-
+    setTimeout(set_ra_dec_display(), 1000)
+    setInterval(set_ra_dec_display, 10);
 }
 
 // These two function makes sure the imageset is fully loaded
@@ -285,9 +286,6 @@ function set_ra_dec_display() {
 }
 
 window.addEventListener("click", set_ra_dec_display)
-
-// repeat set_ra_dec_display every 1000 ms
-setInterval(set_ra_dec_display, 10);
 
 
 // ******  handy functions ******
