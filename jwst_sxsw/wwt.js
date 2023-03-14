@@ -239,8 +239,10 @@ function make_wwt_image_list() {
     add_image_options(wwt_images['AllSky']['Optical'], 'Optical');
     // add infrared images
     add_image_options(wwt_images['AllSky']['Infrared'], 'Infrared');
+    // add high energy
+    add_image_options(["PanSTARRS1 3pi"], 'Large Survey');
     // add catalog images
-    add_image_options(wwt_images['AllSky']['Catalogs'], 'Catalogs');
+    // add_image_options(wwt_images['AllSky']['Catalogs'], 'Catalogs');
     // add no data images
     add_image_options(wwt_images['AllSky']['NoData'], 'No Data');
 
