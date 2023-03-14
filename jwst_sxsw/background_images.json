@@ -1,0 +1,123 @@
+{
+  "Earth": [
+    "Bing Maps Aerial",
+    "Bing Maps Hybrid",
+    "Bing Maps Streets",
+    "Earth at Night 2012",
+    "Visible Imagery"
+  ],
+  
+  "SolarSystem": {
+    "3D": "3D Solar System View",
+    "Solar System": [
+      "Sun",
+      "Mercury",
+      "Venus",
+      "Moon",
+      "Jupiter",
+      "Jupiter Cassini and Juno Merged",
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Pluto",
+      "Pluto New Horizons Enhanced Color",
+      "Pluto (New Horizons)",
+      "Io (Jupiter)",
+      "Europa (Jupiter)",
+      "Ganymede (Jupiter)",
+      "Callisto (Jupiter)"
+    ]
+  },
+
+  "AllSky": {
+    "Optical": ["Digitized Sky Survey (Color)", "Hydrogen Alpha Full Sky Map"],
+    "Infrared": [
+      "2Mass: Imagery (Infrared)",
+      "WISE All Sky (Infrared)",
+      "IRIS: Improved Reprocessing of IRAS Survey (Infrared)"
+    ],
+
+    "Radio": [
+      "VLSS: VLA Low-frequency Sky Survey (Radio)",
+      "NVSS: NRAO VLA Sky Survey (Radio)"
+    ],
+
+    "High Energy": [
+      "Fermi LAT 8-year (gamma)",
+      "RASS: ROSAT All Sky Survey (X-ray)",
+      "GALEX (Ultraviolet)"
+    ],
+
+    "LAS": [
+      "GLIMPSE 360",
+      "SDSS: Sloan Digital Sky Survey (Optical) [DR7]",
+      "PanSTARRS1 3pi",
+      "DECaPS2 grz Color Composite"
+    ],
+
+    "Derived": [
+      "SFD Dust Map (Infrared)",
+      "WMAP ILC 5-Year Cosmic Microwave Background",
+      "Planck Thermal Dust",
+      "Planck CMB"
+    ],
+
+    "Catalogs": [
+      "Gaia DR2",
+      "Deep Star Maps 2020",
+      "2MASS: Catalog (Synthetic, Near Infrared)",
+      "Tycho (Synthetic, Optical)",
+      "USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)"
+    ],
+    
+    "NoData": [
+      "Hipparcos Catalog",
+      "Black Sky Background"
+    ]
+    
+  },
+
+  "Mars": [
+    "Mastcam-Z's First 360-Degree Panorama",
+    "Perseverance Navcams 360-Degree Panorama",
+    "Perseverance's Mastcam-Z First High-Resolution Panorama",
+    "Van Zyl Horizon - Jezero Crater",
+    "Curiosity's 1.8 Billion Pixel Panorama",
+    "Curiosity 360-Degree View Approaching Mont Mercou",
+    "Curiosity 360 degree View Atop Mont Mercou",
+    "Phoenix: Landing Site",
+    "Spirit: McMurdo",
+    "Spirit: West Valley",
+    "Spirit: Descent from Husband Hill",
+    "Spirit: Gibson Panorama at Home Plate",
+    "Spirit: Home Plate South",
+    "Spirit: Husband Hill Summit",
+    "Spirit: Santa Anita",
+    "Spirit: Independence",
+    "Spirit: Everest",
+    "Spirit Mission Success",
+    "Spirit: Thanksgiving",
+    "Spirit: Cahokia",
+    "Spirit: Larry's Lookout",
+    "Spirit: Whale of a Panorama",
+    "Spirit: From The Summit",
+    "Spirit: Paige Panorama",
+    "Spirit: Legacy",
+    "Spirit: Bonneville",
+    "Opportunity: Erebus",
+    "Opportunity: Lyell",
+    "Opportunity: Rub al Khali",
+    "Opportunity: Endurance South",
+    "Opportunity Mission Success",
+    "Opportunity: Burns Cliff",
+    "Opportunity: Payson Panorama",
+    "Opportunity: Beagle Crater",
+    "Opportunity: Lion King",
+    "Pathfinder: Improved MPF 360-degree Presidential Panorama",
+    "Pathfinder: 'Many Rovers'",
+    "Pathfinder: Monster (stereo)",
+    "Pathfinder: Landing site from Sagan Memorial Station (stereo)",
+    "Apollo 17: Shorty Crater",
+    "Apollo 12 Landing Site"
+  ]
+}

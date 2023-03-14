@@ -1,5 +1,5 @@
-<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="712_2022E3_11_02_23" Group="Explorer" Searchable="False">
-  <Place Name="712_2022E3_11_02_23" DataSetType="Sky" RA="4.778906738481063" Dec="24.566089204628515" Rotation="0" ZoomLevel="28">
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="Hubble" Group="Explorer" Searchable="False">
+  <Place Name="esahubble_potw1533a_original" DataSetType="Sky" RA="19.19192829297781" Dec="16.86060461206838" Rotation="0" ZoomLevel="0">
     <ForegroundImageSet>
       <ImageSet       DemUrl=""
                 MSRCommunityId="0"
@@ -13,25 +13,25 @@
                 Projection="SkyImage"
                 Sparse="True"
                 BandPass="Visible"
-                Name="712_2022E3_11_02_23"
-                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/712_2022E3_11_02_23_inverted_tagged.jpg"
+                Name="Hubble"
+                Url="https://www.astropix.org/archive/esahubble/potw1533a/esahubble_potw1533a_original.jpg"
                 FileType=".jpg"
                 TileLevels="0"
                 WidthFactor="2"
                 BaseTileLevel="0"
-                BaseDegreesPerTile="0.001626036710553488"
+                BaseDegreesPerTile="2.776924445270005e-05"
                 MeanRadius="0"
-                Rotation="98.42145267211633"
-                BottomsUp="False"
-                CenterY="24.566089204628515"
-                CenterX="71.68360107721594"
-                OffsetX="850.5"
-                OffsetY="788.0"
+                Rotation="132.0200000000001"
+                BottomsUp="True"
+                CenterY="16.86060461206838"
+                CenterX="287.87892439466714"
+                OffsetX="655.0"
+                OffsetY="661.0"
                 ReferenceFrame="">
         <Description>description</Description>
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
-        <ThumbnailUrl>https://nova.astrometry.net/image/16942765</ThumbnailUrl>
+        <ThumbnailUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/640px-HST-SM4.jpeg</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>

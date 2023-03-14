@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="JWST First Images" Searchable="True">
+<ImageSet
+      BandPass="IR"
+      BaseDegreesPerTile="180"
+      BaseTileLevel="0"
+      BottomsUp="False"
+      CenterX="0"
+      CenterY="0"
+      DataSetType="Sky"
+      ElevationModel="False"
+      FileType="jpeg"
+      Generic="False"
+      MeanRadius="1"
+      Name="unWISE color, from W2 and W1 bands"
+      Projection="Healpix"
+      QuadTreeMap="0123"
+      ReferenceFrame="Sky"
+      Rotation="0"
+      Sparse="True"
+      StockSet="False"
+      TileLevels="8"
+      Url="http://alasky.u-strasbg.fr/unWISE/color-W2-W1W2-W1/Norder{0}/Dir{1}/Npix{2}"
+      WidthFactor="1">    <Credits>IPAC/NASA - D. Lang for the reprocessing</Credits>
+    <ThumbnailUrl>http://alasky.u-strasbg.fr/unWISE/color-W2-W1W2-W1/preview.jpg</ThumbnailUrl>
+  </ImageSet>
+</Folder>

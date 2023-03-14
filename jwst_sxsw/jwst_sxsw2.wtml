@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="JWST (NIRCam/MIRI)" Group="Explorer" Searchable="False">
+  <Place Name="Wolf-Rayet_124" DataSetType="Sky" RA="19.191949419296805" Dec="16.860364447073678" Rotation="0" ZoomLevel="0">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="JWST (NIRCam/MIRI)"
+                Url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/03/wolf-rayet_124_nircam_and_miri_composite_image/24749635-1-eng-GB/Wolf-Rayet_124_NIRCam_and_MIRI_composite_image.jpg"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="8.3414756314592e-06"
+                MeanRadius="0"
+                Rotation="139.36000000000038"
+                BottomsUp="True"
+                CenterY="16.860364447073678"
+                CenterX="287.87924128945207"
+                OffsetX="2208.5"
+                OffsetY="2175.0"
+                ReferenceFrame="">
+        <Description>description</Description>
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <ThumbnailUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/JWST_decal.svg/478px-JWST_decal.svg.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

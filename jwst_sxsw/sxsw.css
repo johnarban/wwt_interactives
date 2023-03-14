@@ -1,0 +1,309 @@
+
+
+
+/* add font-awesome-icons from cdn */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* add nice sans-serif fonts from google */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:300,400,500,700,900');
+
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* remove default spacing */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 2px solid rgb(49, 221, 18); */
+}
+
+/* dark mode user-agent-styles */
+html {
+  /* color-scheme: dark light; */
+}
+
+/* min body height */
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img, picture, svg, video {
+  display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+  }
+
+  
+/* OUR CSS */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto' ;
+    font-size:13pt;
+    --description: 30pt;
+    --jwst-red: rgba(232, 74, 11, 0.8);
+}
+
+
+div {
+    /* border: 2px solid blue */
+    /* filter: brightness(3) contrast(.8); */
+}
+
+button, select {
+    
+}
+
+/* PRIMARY UI CONTAINERS */
+.container {
+  
+}
+
+#wwtcanvas {
+    /* margin: 50px auto;; */
+    position: relative;
+    width: 100%;
+    height: calc(100vh - var(--description));
+    /* border: 1px solid blue; */
+}
+
+/* position absolute center on bottom of screen */
+#slidercontainer  {
+  position: absolute;
+  bottom: 1.5em;
+  margin-inline: auto;
+  left: 0;
+  right: 0;
+  width: 70%;
+
+  justify-content: center;
+  align-items: middle;
+  z-index: 100; 
+}
+
+#radec {
+  position: absolute;
+  top: 1em;
+  /* margin-left: max(1%,1em); */
+  /* margin-right: auto; */
+  /* left: 0; */
+  right: 1em;
+  display: flex;
+  gap: 1em;
+  width: 19em;
+  height: 2em;
+  justify-content: left;
+  align-items: center;
+  /* font-size: 0.8em; */
+}
+
+/* CSS for collapsing div */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  position:absolute;
+  background-color: #0b3d91;
+  color: hsl(218, 86%, 95%);
+  cursor: pointer;
+  padding: 5pt;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible > a {
+  color: hsl(218, 86%, 95%);
+}
+
+.overlay {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 5px;
+    color: rgb(250, 250, 250);
+    background-color:  rgba(30, 5, 5, 0.5) ;
+    font-size: 1em;
+    outline: 1px solid var(--jwst-red)
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+    
+select#wwt_image_list {
+  position:absolute;
+  top: 1em;
+  left: 1em;
+  font-size: 1em;
+  max-width: 50%;
+}
+
+select#wwt_image_list_allsky {
+  position:absolute;
+  top: 1em;
+  left: 60%;
+  font-size: 1em;
+  max-width: 30%;
+}
+
+/* #ra, #dec, #fov {
+    display: block;
+    text-align: center;
+} */
+
+
+div#image_list {
+  position: absolute;
+  top: 5em;
+  left: 1em;
+  width: fit-content;
+  padding: 0.5em;
+  height: fit-content;
+  max-height: 500px;
+  z-index: 100;
+  overflow: scroll;
+}
+
+div.image_list_item {
+  /* outline: 1px solid white; */
+  margin: 0.5em;
+}
+
+
+img.thumbnail {
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    margin: auto;
+    object-fit: cover;
+    /* border-radius: 5px; */
+    /* margin: 5px; */
+    cursor: pointer;
+    overflow: hidden;
+    filter: grayscale(0.5) brightness(.5) ;
+    outline: 2px solid rgb(186, 186, 186);
+}
+
+
+img.thumbnail_selected {
+    outline: 2px solid var(--jwst-red);
+    /* filter: drop-shadow(0px 4px 4px black) */
+    filter: drop-shadow(0px 0px 4px rgb(112, 110, 110));
+}
+
+
+
+
+
+
+div.slider_with_name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    gap: 0.5em;
+    align-items: middle;
+    justify-content: center;
+    /* outline: 1px solid red; */
+}
+
+span.slider_label {
+  font-size: .8em;
+  /* margin-right: 1em; */
+  width: 8em;
+  text-align: center;
+  /* min-width: min-content; */
+}
+
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #395b96;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow-y:auto;
+  background-color: #f1f1f1;
+}
+
+/* from https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/ */
+input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 70%;
+  padding: 0;
+  opacity: 0.7;
+  transition: opacity .2s;
+  --track-height: 1em;
+  --thumb-radius: calc(1.5*var(--track-height));
+  --thumb-color: var(--jwst-red);
+  --track-color: rgba(255, 255, 255, 0.943);
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  width: var(--thumb-radius);
+  height: var(--thumb-radius);
+  /* margin-top (track height in pixels / 2) - (thumb height in pixels /2)  */
+  margin-top: calc(var(--track-height) / 2 - var(--thumb-radius) / 2);
+  border-radius: 50%;
+  background: var(--thumb-color);
+  /* outline: 2px solid red; */
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: var(--thumb-radius);
+  height: var(--thumb-radius);
+  margin-top: calc(var(--track-height) / 2 - var(--thumb-radius) / 2);
+  border-radius: 50%;
+  border: none;
+  background: var(--thumb-color);
+  cursor: pointer;
+}
+
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: var(--track-color);
+  /* outline: 1px solid white; */
+  border-radius: calc(var(--track-height) / 2);
+  height: var(--track-height);
+  margin-top: 0;
+}
+
+
+
+input[type="range"]::-moz-range-track {
+  background: var(--track-color)
+  /* outline: 1px solid white; */
+  border-radius: calc(var(--track-height) / 2);
+  height: var(--track-height);
+  margin-top: 0;
+}
