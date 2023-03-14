@@ -14,7 +14,7 @@
                 Sparse="True"
                 BandPass="Visible"
                 Name="JWST (NIRCam/MIRI)"
-                Url="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/03/wolf-rayet_124_nircam_and_miri_composite_image/24749635-1-eng-GB/Wolf-Rayet_124_NIRCam_and_MIRI_composite_image.jpg"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/Wolf-Rayet_124_NIRCam_and_MIRI_composite_image.jpg"
                 FileType=".jpg"
                 TileLevels="0"
                 WidthFactor="2"
