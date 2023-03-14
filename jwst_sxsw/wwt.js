@@ -120,7 +120,7 @@ async function wwt_load_after_ready() {
 
     // use list of imagesets to add to the menu
     // folder = wwtlib.Wtml.getWtmlFile('https://worldwidetelescope.github.io/pywwt/surveys.xml', () => { add_all_allsky_datasets() }, true)
-
+    set_background_image("PanSTARRS1 3pi")
 
     // roll_deg is in radians :/ 1.8 radians = 103.5 degrees
     // intial fov is 60deg, need move there first so we can zoom in in a time independent manner
