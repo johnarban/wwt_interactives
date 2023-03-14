@@ -300,7 +300,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 
 
 input[type="range"]::-moz-range-track {
-  background: var(--track-color)
+  background: var(--track-color);
   /* outline: 1px solid white; */
   border-radius: calc(var(--track-height) / 2);
   height: var(--track-height);
