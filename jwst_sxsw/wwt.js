@@ -89,7 +89,7 @@ async function wwt_load_after_ready() {
             jwst_imageset = imageset;
             jwst_layer = wwt_si.addImageSetLayer(jwst_imageset.url);
             jwst_layer.set_name(jwst_imageset._name);
-            jwst_layer.set_enabled(true);
+            jwst_layer.set_enabled(false);
             jwst_layer.set_opacity(1);
             add_layer_to_thumbnail_div(jwst_layer);
             add_opacity_slider(jwst_layer);
