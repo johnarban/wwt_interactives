@@ -75,13 +75,12 @@ button, select {
     position: relative;
     width: 100%;
     height: calc(100vh - var(--description));
-    /* border: 1px solid blue; */
 }
 
 /* position absolute center on bottom of screen */
 #slidercontainer  {
   position: absolute;
-  bottom: 1.5em;
+  bottom: 3em;
   margin-inline: auto;
   left: 0;
   right: 0;
