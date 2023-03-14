@@ -14,7 +14,7 @@
                 Sparse="True"
                 BandPass="Visible"
                 Name="Hubble"
-                Url="https://github.com/johnarban/wwt_interactives/blob/main/jwst_sxsw/esahubble_potw1533a_original.jpg"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/esahubble_potw1533a_original.jpg"
                 FileType=".jpg"
                 TileLevels="0"
                 WidthFactor="2"
