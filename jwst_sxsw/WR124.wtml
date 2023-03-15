@@ -1,7 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True" Group="Explorer" Name="Folder" Searchable="True">
-  <Place Angle="0" AngularSize="0" Constellation="SGE" DataSetType="Sky" Dec="16.860364447073678" Magnitude="0" Name="Wolf-Rayet 124 (NIRCam and MIRI composite image)" Opacity="100" RA="19.191949419296805" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2023/03_jwst/weic2307a/thumb.jpg" ZoomLevel="0.37002619071640264">
-    <ForegroundImageSet>
+<Place
+      Angle="0"
+      AngularSize="0"
+      Constellation="SGE"
+      DataSetType="Sky"
+      Dec="16.860364447073678"
+      Magnitude="0"
+      Name="Wolf-Rayet 124 (NIRCam and MIRI composite image)"
+      Opacity="100"
+      RA="19.191949419296805"
+      Rotation="0"
+      Thumbnail="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/JWST_decal.svg/478px-JWST_decal.svg.png"
+      ZoomLevel="0.37002619071640264">    <ForegroundImageSet>
 <ImageSet
           BandPass="Visible"
           BaseDegreesPerTile="0.06833336837291354"
@@ -29,8 +40,19 @@
       </ImageSet>
     </ForegroundImageSet>
   </Place>
-  <Place Angle="0" AngularSize="0" Constellation="SGE" DataSetType="Sky" Dec="16.859781805244637" Magnitude="0" Name="Wolf-Rayet 124 (Hubble)" Opacity="100" RA="19.191915772182696" Rotation="0" Thumbnail="http://data1.wwtassets.org/packages/2023/03_jwst/weic2307f/thumb.jpg" ZoomLevel="0.3151495760649247">
-    <ForegroundImageSet>
+<Place
+      Angle="0"
+      AngularSize="0"
+      Constellation="SGE"
+      DataSetType="Sky"
+      Dec="16.859781805244637"
+      Magnitude="0"
+      Name="Wolf-Rayet 124 (Hubble)"
+      Opacity="100"
+      RA="19.191915772182696"
+      Rotation="0"
+      Thumbnail="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/HST-SM4.jpeg/640px-HST-SM4.jpeg"
+      ZoomLevel="0.3151495760649247">    <ForegroundImageSet>
 <ImageSet
           BandPass="Visible"
           BaseDegreesPerTile="0.06833379195580462"
