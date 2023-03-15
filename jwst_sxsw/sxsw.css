@@ -220,7 +220,7 @@ div.slider_with_name {
 span.slider_label {
   font-size: .8em;
   /* margin-right: 1em; */
-  width: 8em;
+  width: 10em;
   text-align: center;
   /* min-width: min-content; */
 }
@@ -251,7 +251,7 @@ input[type="range"] {
   padding: 0;
   opacity: 0.7;
   transition: opacity .2s;
-  --track-height: 3vh;
+  --track-height: 2vh;
   --thumb-radius: calc(1.5*var(--track-height));
   --thumb-color: var(--jwst-red);
   --track-color: rgba(255, 255, 255, 0.943);

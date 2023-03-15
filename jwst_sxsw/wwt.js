@@ -122,8 +122,8 @@ async function wwt_load_after_ready() {
             // jwst_imageset = imageset;
             layer = wwt_si.addImageSetLayer(imageset.url);
             layer.set_name(imageset._name);
-            layer.set_enabled(false);
-            layer.set_opacity(1);
+            layer.set_enabled(true);
+            layer.set_opacity(.75);
             add_layer_to_thumbnail_div(layer);
             add_opacity_slider(layer);
             wwt_si.setImageSetLayerOrder(layer.id,1)
@@ -135,8 +135,8 @@ async function wwt_load_after_ready() {
             // jwst_imageset = imageset;
             layer = wwt_si.addImageSetLayer(imageset.url);
             layer.set_name(imageset._name);
-            layer.set_enabled(false);
-            layer.set_opacity(1);
+            layer.set_enabled(true);
+            layer.set_opacity(.5);
             add_layer_to_thumbnail_div(layer);
             add_opacity_slider(layer);
             wwt_si.setImageSetLayerOrder(layer.id,2)
