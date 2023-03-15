@@ -11,13 +11,13 @@ draper_options = {
     displayLabel: true,
     labelColumn: "HD", labelColor: 'white',labelFont: '16px sans-serif',
 }
-catalog = A.catalogFromVizieR(draper, '15:50:58.185 +32:02:50.365', 5, draper_options)
-aladin.addCatalog(catalog);
+catalog = A.catalogFromVizieR(draper, '19:50 +16:50', 5, draper_options)
+// aladin.addCatalog(catalog);
 // add gaia catalog
-aladin.gotoRaDec("237.742", "32.047")
+aladin.gotoRaDec("287.87924128945207", "16.860364447073678")
 aladin.setFoV(6)
 var url1 = 'https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/stsci.jpg'
-var url2 = 'https://raw.githubusercontent.com/cosmicds/minids/main/green-comet/src/assets/692_2022E3_02_01_23_inverted_tagged.jpg'
+var url2 = 'https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/03/wolf-rayet_124_nircam_and_miri_composite_image/24749635-1-eng-GB/Wolf-Rayet_124_NIRCam_and_MIRI_composite_image.jpg'
 
 aladin.displayJPG(url2, {}, (ra, dec,fov) => {
     console.log('displayJPG callback', ra, dec, fov)
