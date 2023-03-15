@@ -115,7 +115,7 @@ async function wwt_load_after_ready() {
     //     });
     
     wtmlurl = "https://data1.wwtassets.org/packages/2023/03_jwst/WR124.wtml"
-    wtmlurl = "./WR124.wtml"
+    wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/WR124.wtml"
     loadWTML(wtmlurl, 'Wolf-Rayet 124 (NIRCam and MIRI composite image)')
         .then((imageset) => {
             log(`${imageset._name} is loaded`, 'success')
@@ -126,7 +126,7 @@ async function wwt_load_after_ready() {
             layer.set_opacity(1);
             add_layer_to_thumbnail_div(layer);
             add_opacity_slider(layer);
-            wwt_si.setImageSetLayerOrder(layer.id,2)
+            wwt_si.setImageSetLayerOrder(layer.id,1)
         });
     
         loadWTML(wtmlurl, 'Wolf-Rayet 124 (Hubble)')
