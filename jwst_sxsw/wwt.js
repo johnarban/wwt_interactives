@@ -86,36 +86,36 @@ async function wwt_load_after_ready() {
     let wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/jwst_sxsw2.wtml"
     
     // wtmlurl = "./jwst_sxsw2.wtml"
-    // loadWTML(wtmlurl, 'JWST (NIRCam/MIRI)')
-    //     .then((imageset) => {
-    //         log(`${imageset._name} is loaded`, 'success')
-    //         jwst_imageset = imageset;
-    //         jwst_layer = wwt_si.addImageSetLayer(jwst_imageset.url);
-    //         jwst_layer.set_name(jwst_imageset._name);
-    //         jwst_layer.set_enabled(false);
-    //         jwst_layer.set_opacity(1);
-    //         add_layer_to_thumbnail_div(jwst_layer);
-    //         add_opacity_slider(jwst_layer);
-    //         wwt_si.setImageSetLayerOrder(jwst_layer.id,1)
-    //     });
+    loadWTML(wtmlurl, 'JWST (NIRCam/MIRI)')
+        .then((imageset) => {
+            log(`${imageset._name} is loaded`, 'success')
+            jwst_imageset = imageset;
+            jwst_layer = wwt_si.addImageSetLayer(jwst_imageset.url);
+            jwst_layer.set_name(jwst_imageset._name);
+            jwst_layer.set_enabled(false);
+            jwst_layer.set_opacity(1);
+            add_layer_to_thumbnail_div(jwst_layer);
+            add_opacity_slider(jwst_layer);
+            wwt_si.setImageSetLayerOrder(jwst_layer.id,1)
+        });
 
     wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/hst_sxsw2.wtml"
     // wtmlurl = './hst_sxsw2.wtml'
-    // loadWTML(wtmlurl, 'Hubble')
-    //     .then((imageset) => {
-    //         log(`${imageset._name} is loaded`, 'success')
-    //         // jwst_imageset = imageset;
-    //         layer = wwt_si.addImageSetLayer(imageset.url);
-    //         layer.set_name(imageset._name);
-    //         layer.set_enabled(false);
-    //         layer.set_opacity(1);
-    //         add_layer_to_thumbnail_div(layer);
-    //         add_opacity_slider(layer);
-    //         wwt_si.setImageSetLayerOrder(layer.id,2)
-    //     });
+    loadWTML(wtmlurl, 'Hubble')
+        .then((imageset) => {
+            log(`${imageset._name} is loaded`, 'success')
+            // jwst_imageset = imageset;
+            layer = wwt_si.addImageSetLayer(imageset.url);
+            layer.set_name(imageset._name);
+            layer.set_enabled(false);
+            layer.set_opacity(1);
+            add_layer_to_thumbnail_div(layer);
+            add_opacity_slider(layer);
+            wwt_si.setImageSetLayerOrder(layer.id,2)
+        });
     
     wtmlurl = "https://data1.wwtassets.org/packages/2023/03_jwst/WR124.wtml"
-    wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/WR124.wtml"
+    // wtmlurl = "https://raw.githubusercontent.com/johnarban/wwt_interactives/main/jwst_sxsw/WR124.wtml"
     loadWTML(wtmlurl, 'Wolf-Rayet 124 (NIRCam and MIRI composite image)')
         .then((imageset) => {
             log(`${imageset._name} is loaded`, 'success')
