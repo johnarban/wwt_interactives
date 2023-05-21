@@ -14,7 +14,7 @@
                 Sparse="True"
                 BandPass="Visible"
                 Name="astromnet_18548439"
-                Url="astromnet_18548439.jpg"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/astromnet_18548439.jpg"
                 FileType=".jpg"
                 TileLevels="0"
                 WidthFactor="2"
