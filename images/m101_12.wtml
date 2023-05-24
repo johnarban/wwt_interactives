@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="m101_12" Group="Explorer" Searchable="False">
+  <Place Name="m101_12" DataSetType="Sky" RA="14.046320148403375" Dec="54.47040860013695" Rotation="0" ZoomLevel="9">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="m101_12"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101_12.png"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="0.0014392810184708177"
+                MeanRadius="0"
+                Rotation="1.1035256087229923"
+                BottomsUp="False"
+                CenterY="54.47040860013695"
+                CenterX="210.69480222605063"
+                OffsetX="325.5"
+                OffsetY="250.5"
+                ReferenceFrame="">
+        <Description>Supernova in M101</Description>
+        <Credits>MicroObservatory</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101_12.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
