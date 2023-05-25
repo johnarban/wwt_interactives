@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="M101_2023-05-21T05:36:28.412000Z" Group="Explorer" Searchable="False">
+  <Place Name="M101_2023-05-21T05:36:28.412000Z" DataSetType="Sky" RA="14.045428205848497" Dec="54.47731806579528" Rotation="0" ZoomLevel="9">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="M101_2023-05-21T05:36:28.412000Z"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/NGC5457M101230521053628.png"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="0.0014387608197227427"
+                MeanRadius="0"
+                Rotation="1.107560443825751"
+                BottomsUp="False"
+                CenterY="54.47731806579528"
+                CenterX="210.68142308772744"
+                OffsetX="325.5"
+                OffsetY="250.5"
+                ReferenceFrame="">
+        <Description>Supernova in M101</Description>
+        <Credits>MicroObservatory</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/NGC5457M101230521053628.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

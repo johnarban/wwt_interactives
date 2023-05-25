@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="M101_2023-05-24T05:24:20.736000Z" Group="Explorer" Searchable="False">
+  <Place Name="M101_2023-05-24T05:24:20.736000Z" DataSetType="Sky" RA="14.045154393162075" Dec="54.4684905829242" Rotation="0" ZoomLevel="9">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="M101_2023-05-24T05:24:20.736000Z"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/SN2023ixf-C230524052420.png"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="0.0014388362230727228"
+                MeanRadius="0"
+                Rotation="1.111374582811641"
+                BottomsUp="False"
+                CenterY="54.4684905829242"
+                CenterX="210.67731589743113"
+                OffsetX="325.5"
+                OffsetY="250.5"
+                ReferenceFrame="">
+        <Description>Supernova in M101</Description>
+        <Credits>MicroObservatory</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/SN2023ixf-C230524052420.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
