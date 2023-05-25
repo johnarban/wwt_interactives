@@ -1,15 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True" Group="Explorer" Name="Folder" Searchable="True">
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.4731204578481" Magnitude="0" Name="M101_2023-05-14T06:06:28.580000Z" Opacity="100" RA="14.0465298411186" Rotation="0" ZoomLevel="9">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001439449926909415" BaseTileLevel="0" BottomsUp="False" CenterX="210.697947616779" CenterY="54.4731204578481" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="M101_2023-05-14T06:06:28.580000Z" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0966707526612471" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/NGC5457M101230514060628.png" WidthFactor="2">
-        <Credits>MicroObservatory</Credits>
-        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
-        <Description>Supernova in M101</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/NGC5457M101230514060628.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.45537186196815" Magnitude="0" Name="M101_2023-05-15T05:51:29.217000Z" Opacity="100" RA="14.045222018089852" Rotation="0" ZoomLevel="9">
     <ForegroundImageSet>
       <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014387579537114333" BaseTileLevel="0" BottomsUp="False" CenterX="210.6783302713478" CenterY="54.45537186196815" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="M101_2023-05-15T05:51:29.217000Z" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.1340276790088688" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/NGC5457M101230515055129.png" WidthFactor="2">
