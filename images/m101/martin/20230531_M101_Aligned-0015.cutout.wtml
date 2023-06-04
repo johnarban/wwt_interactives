@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="20230531_M101_Aligned-0015" Group="Explorer" Searchable="False">
+  <Place Name="20230531_M101_Aligned-0015" DataSetType="Sky" RA="14.053495277777778" Dec="54.34875" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="20230531_M101_Aligned-0015"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230531_M101_Aligned-0015.cutout.png"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="0.0014334749990666995"
+                MeanRadius="0"
+                Rotation="0.9618161734336047"
+                BottomsUp="False"
+                CenterY="54.3672936311"
+                CenterX="210.765637396"
+                OffsetX="149.5"
+                OffsetY="149.5"
+                ReferenceFrame="">
+        <Description>Supernova in M101</Description>
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230531_M101_Aligned-0015.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
