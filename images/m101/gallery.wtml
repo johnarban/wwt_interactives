@@ -10,7 +10,7 @@
     ZoomLevel="0.6815819999999999"
     DataSetType="Sky"
     Opacity="100"
-    Thumbnail="https://nova.astrometry.net/thumbnail_of_image/18547527"
+    Thumbnail="https://nova.astrometry.net/image/18547527"
     Constellation="">
     <ForegroundImageSet>
           <ImageSet DataSetType="Sky"
