@@ -31,8 +31,9 @@
         BaseTileLevel="0"
         BaseDegreesPerTile="0.00034423322371619693"
       >
-        <Credits></Credits>
-        <CreditsUrl></CreditsUrl>
+        <Credits>Koichi Itagaki</Credits>
+        <CreditsUrl>https://www.wis-tns.org/object/2023ixf/discovery-cert</CreditsUrl>
+        <ThumbnailUrl>https://nova.astrometry.net/image/18547525?0</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
@@ -42,7 +43,7 @@
     DataSetType="Sky"
     Dec="54.35401801671693"
     Magnitude="0"
-    Name="Before (Hubble Optical)"
+    Name="Hubble image from before the Supernova"
     Opacity="100"
     RA="14.052657702093098"
     Rotation="0"
@@ -64,7 +65,7 @@
         OffsetY="0.013613773026242323"
         Projection="Tan"
         QuadTreeMap=""
-        Rotation="-0.28497719299999946"
+        Rotation="0.28497719299999946"
         Sparse="True"
         StockSet="False"
         TileLevels="5"
@@ -83,7 +84,7 @@
     DataSetType="Sky"
     Dec="54.31814483807457"
     Magnitude="0"
-    Name="After (Gemini Optical/Infrared)"
+    Name="Gemini Observatory"
     Opacity="100"
     RA="14.054180763541849"
     Rotation="0"
