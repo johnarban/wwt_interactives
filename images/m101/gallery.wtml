@@ -5,34 +5,32 @@
   Searchable="True">
   <Place
     Name="Discovery Image (Koichi Itagaki)"
-    RA="14.052989665945296"
-    Dec="54.34154719504403"
-    ZoomLevel="0.9776223553539994"
+    RA="14.054307666666666"
+    Dec="54.312844"
+    ZoomLevel="0.6815819999999999"
     DataSetType="Sky"
     Opacity="100"
-    Thumbnail="https://nova.astrometry.net/image/18547525?0"
-    Constellation=""
-  >
+    Thumbnail="https://nova.astrometry.net/thumbnail_of_image/18547527"
+    Constellation="">
     <ForegroundImageSet>
-      <ImageSet
-        DataSetType="Sky"
-        BandPass="Visible"
-        Url="https://nova.astrometry.net/image/18547525?0"
-        TileLevels="0"
-        WidthFactor="2"
-        Rotation="2.800745188955034"
-        Projection="SkyImage"
-        FileType=".tif"
-        CenterY="54.34154719504403"
-        CenterX="210.79484498917944"
-        BottomsUp="False"
-        OffsetX="472.99999999999994"
-        OffsetY="284"
-        BaseTileLevel="0"
-        BaseDegreesPerTile="0.00034423322371619693"
-      >
+          <ImageSet DataSetType="Sky"
+            BandPass="Visible"
+            Url="https://nova.astrometry.net/image/18547525"
+            TileLevels="0"
+            WidthFactor="2"
+            Rotation="-2.8000000000000114"
+            Projection="SkyImage"
+            FileType=".tif"
+            CenterY="54.312844"
+            CenterX="210.814615"
+            BottomsUp="False"
+            OffsetX="443.6"
+            OffsetY="198"
+            BaseTileLevel="0"
+            BaseDegreesPerTile="0.0003442333333333333">
         <Credits>Koichi Itagaki</Credits>
         <CreditsUrl>https://www.wis-tns.org/object/2023ixf/discovery-cert</CreditsUrl>
+        <ThumbnailUrl>https://nova.astrometry.net/thumbnail_of_image/18547527</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
