@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="aligned_SN2023ixf-C230627052716" Group="Explorer" Searchable="False">
+  <Place Name="aligned_SN2023ixf-C230627052716" DataSetType="Sky" RA="14.036831484" Dec="210.55247226" Rotation="0" ZoomLevel="9.52">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="aligned_SN2023ixf-C230627052716"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230627052716.png"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="0.0014362344855673185"
+                MeanRadius="0"
+                Rotation="0.8761263490397854"
+                BottomsUp="False"
+                CenterY="54.3005087328"
+                CenterX="210.55247226"
+                OffsetX="325.5"
+                OffsetY="250.5"
+                ReferenceFrame="">
+        <Description>description</Description>
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230627052716.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>

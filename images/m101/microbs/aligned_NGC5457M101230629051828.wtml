@@ -1,0 +1,38 @@
+<Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="aligned_NGC5457M101230629051828" Group="Explorer" Searchable="False">
+  <Place Name="aligned_NGC5457M101230629051828" DataSetType="Sky" RA="14.037007555266666" Dec="210.555113329" Rotation="0" ZoomLevel="9.53">
+    <ForegroundImageSet>
+      <ImageSet       DemUrl=""
+                MSRCommunityId="0"
+                MSRComponentId="0"
+                StockSet="False"
+                Permission="0"
+                Generic="False"
+                DataSetType="Sky"
+                ElevationModel="False"
+                QuadTreeMap=""
+                Projection="SkyImage"
+                Sparse="True"
+                BandPass="Visible"
+                Name="aligned_NGC5457M101230629051828"
+                Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_NGC5457M101230629051828.png"
+                FileType=".jpg"
+                TileLevels="0"
+                WidthFactor="2"
+                BaseTileLevel="0"
+                BaseDegreesPerTile="0.0014375087864894629"
+                MeanRadius="0"
+                Rotation="0.9017227419548597"
+                BottomsUp="False"
+                CenterY="54.3001885426"
+                CenterX="210.555113329"
+                OffsetX="325.5"
+                OffsetY="250.5"
+                ReferenceFrame="">
+        <Description>description</Description>
+        <Credits>credits</Credits>
+        <CreditsUrl>credits_url</CreditsUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_NGC5457M101230629051828.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
