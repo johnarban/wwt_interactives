@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Folder" Searchable="True">
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230515_M101_Aligned-0001" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014372082705053789" BaseTileLevel="0" BottomsUp="False" CenterX="210.766045719" CenterY="54.3677901962" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230515_M101_Aligned-0001" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.3433262019976162" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230515_M101_Aligned-0001.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230515_M101_Aligned-0001.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230516_M101_Aligned-0002" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014371302121855794" BaseTileLevel="0" BottomsUp="False" CenterX="210.765925201" CenterY="54.3675804919" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230516_M101_Aligned-0002" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.581904682293587" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230516_M101_Aligned-0002.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230516_M101_Aligned-0002.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230518_M101_Aligned-0003" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014347702858970846" BaseTileLevel="0" BottomsUp="False" CenterX="210.765487519" CenterY="54.368282163" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230518_M101_Aligned-0003" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.5946674682405604" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230518_M101_Aligned-0003.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230518_M101_Aligned-0003.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230520_M101_Aligned-0004" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014362643441450254" BaseTileLevel="0" BottomsUp="False" CenterX="210.764988629" CenterY="54.3681688281" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230520_M101_Aligned-0004" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.643696309823986" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230520_M101_Aligned-0004.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230520_M101_Aligned-0004.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230521_M101_Aligned-0005" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014372891405163414" BaseTileLevel="0" BottomsUp="False" CenterX="210.765399092" CenterY="54.3680216" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230521_M101_Aligned-0005" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.677651958059915" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230521_M101_Aligned-0005.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230521_M101_Aligned-0005.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230522_M101_Aligned-0006" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014389817667738167" BaseTileLevel="0" BottomsUp="False" CenterX="210.765858277" CenterY="54.3674387247" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230522_M101_Aligned-0006" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.6946546691019624" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230522_M101_Aligned-0006.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230522_M101_Aligned-0006.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230523_M101_Aligned-0007" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001437798985760427" BaseTileLevel="0" BottomsUp="False" CenterX="210.765112444" CenterY="54.3677309377" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230523_M101_Aligned-0007" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.631042952646327" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230523_M101_Aligned-0007.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230523_M101_Aligned-0007.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230524_M101_Aligned-0008" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014374447940214228" BaseTileLevel="0" BottomsUp="False" CenterX="210.764948783" CenterY="54.3676416223" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230524_M101_Aligned-0008" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.631804241485477" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230524_M101_Aligned-0008.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230524_M101_Aligned-0008.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230525_M101_Aligned-0009" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014387841637869755" BaseTileLevel="0" BottomsUp="False" CenterX="210.765300349" CenterY="54.3679887371" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230525_M101_Aligned-0009" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.6195709123966309" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230525_M101_Aligned-0009.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230525_M101_Aligned-0009.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230526_M101_Aligned-0010" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014373737079471473" BaseTileLevel="0" BottomsUp="False" CenterX="210.764696444" CenterY="54.3675759856" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230526_M101_Aligned-0010" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.6279320322833843" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230526_M101_Aligned-0010.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230526_M101_Aligned-0010.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230527_M101_Aligned-0011" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014364784758217045" BaseTileLevel="0" BottomsUp="False" CenterX="210.765439038" CenterY="54.3666722158" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230527_M101_Aligned-0011" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.3232424608503783" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230527_M101_Aligned-0011.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230527_M101_Aligned-0011.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230528_M101_Aligned-0012" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014405816055191175" BaseTileLevel="0" BottomsUp="False" CenterX="210.765976447" CenterY="54.3674822952" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230528_M101_Aligned-0012" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0956227413033375" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230528_M101_Aligned-0012.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230528_M101_Aligned-0012.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230529_M101_Aligned-0013" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001436970663681558" BaseTileLevel="0" BottomsUp="False" CenterX="210.765002633" CenterY="54.3669300456" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230529_M101_Aligned-0013" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.2634635508463739" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230529_M101_Aligned-0013.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230529_M101_Aligned-0013.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230530_M101_Aligned-0014" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014351243421550143" BaseTileLevel="0" BottomsUp="False" CenterX="210.7654794" CenterY="54.3677434292" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230530_M101_Aligned-0014" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.3125777707688397" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230530_M101_Aligned-0014.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230530_M101_Aligned-0014.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.34875" Magnitude="0" Name="20230531_M101_Aligned-0015" Opacity="100" RA="14.053495277777778" Rotation="0" ZoomLevel="7.75">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014334749990666995" BaseTileLevel="0" BottomsUp="False" CenterX="210.765637396" CenterY="54.3672936311" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="20230531_M101_Aligned-0015" OffsetX="149.5" OffsetY="149.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9618161734336047" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230531_M101_Aligned-0015.cutout.png" WidthFactor="2">
+        <Credits>Martin Fowler (NASA Citizen Scientist)</Credits>
+        <CreditsUrl>https://www.microobservatory.org</CreditsUrl>
+        <Description>Supernova in M101</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/martin/20230531_M101_Aligned-0015.cutout.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3028508894" Magnitude="0" Name="aligned_SN2023ixf-C230621051229" Opacity="100" RA="14.0369715364" Rotation="0" ZoomLevel="9.54">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014395376695406743" BaseTileLevel="0" BottomsUp="False" CenterX="210.554573046" CenterY="54.3028508894" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230621051229" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0911386735565247" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230621051229.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230621051229.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3031097733" Magnitude="0" Name="aligned_SN2023ixf-C230622051519" Opacity="100" RA="14.036815832533334" Rotation="0" ZoomLevel="9.54">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014382995045540553" BaseTileLevel="0" BottomsUp="False" CenterX="210.552237488" CenterY="54.3031097733" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230622051519" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.97435151824497" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230622051519.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230622051519.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3015198971" Magnitude="0" Name="aligned_SN2023ixf-C230623051228" Opacity="100" RA="14.037001409" Rotation="0" ZoomLevel="9.53">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438034534703068" BaseTileLevel="0" BottomsUp="False" CenterX="210.555021135" CenterY="54.3015198971" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230623051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0804712662780234" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230623051228.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230623051228.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3005729007" Magnitude="0" Name="aligned_SN2023ixf-C230624051520" Opacity="100" RA="14.0367987766" Rotation="0" ZoomLevel="9.54">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438858737431949" BaseTileLevel="0" BottomsUp="False" CenterX="210.551981649" CenterY="54.3005729007" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230624051520" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.034782117378553" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230624051520.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230624051520.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3028340127" Magnitude="0" Name="aligned_SN2023ixf-C230625051228" Opacity="100" RA="14.036799762066666" Rotation="0" ZoomLevel="9.53">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014371247029415118" BaseTileLevel="0" BottomsUp="False" CenterX="210.551996431" CenterY="54.3028340127" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230625051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0006205542944546" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230625051228.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230625051228.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3003822564" Magnitude="0" Name="aligned_SN2023ixf-C230626053615" Opacity="100" RA="14.036880965466667" Rotation="0" ZoomLevel="9.53">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001437076299234278" BaseTileLevel="0" BottomsUp="False" CenterX="210.553214482" CenterY="54.3003822564" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230626053615" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.7567062230084369" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230626053615.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230626053615.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3011813974" Magnitude="0" Name="aligned_SN2023ixf-C230627052425" Opacity="100" RA="14.0368462954" Rotation="0" ZoomLevel="9.54">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014388848911357395" BaseTileLevel="0" BottomsUp="False" CenterX="210.552694431" CenterY="54.3011813974" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230627052425" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9355989504095359" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230627052425.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230627052425.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3020416426" Magnitude="0" Name="aligned_SN2023ixf-C230629054543" Opacity="100" RA="14.036643138533332" Rotation="0" ZoomLevel="9.54">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014389376840198784" BaseTileLevel="0" BottomsUp="False" CenterX="210.549647078" CenterY="54.3020416426" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230629054543" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.7903844481441136" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230629054543.png" WidthFactor="2">
+        <Credits>credits</Credits>
+        <CreditsUrl>microbs/credits_url</CreditsUrl>
+        <Description>description</Description>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230629054543.png</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
