@@ -1,202 +1,82 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Folder Browseable="True" Group="Explorer" Name="Folder" Searchable="True">
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3034656963" Magnitude="0" Name="aligned_NGC5457M101230626045130" Opacity="100" RA="14.036825307199999" Rotation="0" ZoomLevel="9.55">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014402567131519674" BaseTileLevel="0" BottomsUp="False" CenterX="210.552379608" CenterY="54.3034656963" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_NGC5457M101230626045130" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0554618534897489" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230626045130.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230626045130.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3038912601" Magnitude="0" Name="aligned_NGC5457M101230627044831" Opacity="100" RA="14.0369966892" Rotation="0" ZoomLevel="9.54">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014395848491074812" BaseTileLevel="0" BottomsUp="False" CenterX="210.554950338" CenterY="54.3038912601" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_NGC5457M101230627044831" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.048503312124243" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230627044831.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230627044831.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3001102943" Magnitude="0" Name="aligned_NGC5457M101230629051453" Opacity="100" RA="14.036871463666667" Rotation="0" ZoomLevel="9.55">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014400656475694119" BaseTileLevel="0" BottomsUp="False" CenterX="210.553071955" CenterY="54.3001102943" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_NGC5457M101230629051453" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9090267594681115" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230629051453.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230629051453.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3001885426" Magnitude="0" Name="aligned_NGC5457M101230629051828" Opacity="100" RA="14.037007555266666" Rotation="0" ZoomLevel="9.53">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014375087864894629" BaseTileLevel="0" BottomsUp="False" CenterX="210.555113329" CenterY="54.3001885426" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_NGC5457M101230629051828" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9017227419548597" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230629051828.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_NGC5457M101230629051828.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3028508894" Magnitude="0" Name="aligned_SN2023ixf-C230621051229" Opacity="100" RA="14.0369715364" Rotation="0" ZoomLevel="9.54">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014395376695406743" BaseTileLevel="0" BottomsUp="False" CenterX="210.554573046" CenterY="54.3028508894" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230621051229" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0911386735565247" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230621051229.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014395376695406743" BaseTileLevel="0" BottomsUp="False" CenterX="210.554573046" CenterY="54.3028508894" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230621051229" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0911386735565247" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230621051229.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230621051229.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3029344786" Magnitude="0" Name="aligned_SN2023ixf-C230621051520" Opacity="100" RA="14.036785250533335" Rotation="0" ZoomLevel="9.52">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014360611309498998" BaseTileLevel="0" BottomsUp="False" CenterX="210.551778758" CenterY="54.3029344786" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230621051520" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.8727253054774573" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230621051520.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230621051520.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3031942404" Magnitude="0" Name="aligned_SN2023ixf-C230622051228" Opacity="100" RA="14.036807417599999" Rotation="0" ZoomLevel="9.51">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014349619693696488" BaseTileLevel="0" BottomsUp="False" CenterX="210.552111264" CenterY="54.3031942404" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230622051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0146944369113957" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230622051228.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230622051228.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230621051229.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3031097733" Magnitude="0" Name="aligned_SN2023ixf-C230622051519" Opacity="100" RA="14.036815832533334" Rotation="0" ZoomLevel="9.54">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014382995045540553" BaseTileLevel="0" BottomsUp="False" CenterX="210.552237488" CenterY="54.3031097733" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230622051519" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.97435151824497" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230622051519.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014382995045540553" BaseTileLevel="0" BottomsUp="False" CenterX="210.552237488" CenterY="54.3031097733" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230622051519" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.97435151824497" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230622051519.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230622051519.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230622051519.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3015198971" Magnitude="0" Name="aligned_SN2023ixf-C230623051228" Opacity="100" RA="14.037001409" Rotation="0" ZoomLevel="9.53">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438034534703068" BaseTileLevel="0" BottomsUp="False" CenterX="210.555021135" CenterY="54.3015198971" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230623051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0804712662780234" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230623051228.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438034534703068" BaseTileLevel="0" BottomsUp="False" CenterX="210.555021135" CenterY="54.3015198971" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230623051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0804712662780234" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230623051228.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230623051228.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3031268046" Magnitude="0" Name="aligned_SN2023ixf-C230623051515" Opacity="100" RA="14.0368052904" Rotation="0" ZoomLevel="9.53">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014380176301627863" BaseTileLevel="0" BottomsUp="False" CenterX="210.552079356" CenterY="54.3031268046" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230623051515" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9223784226408668" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230623051515.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230623051515.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3015653039" Magnitude="0" Name="aligned_SN2023ixf-C230624051228" Opacity="100" RA="14.0368169484" Rotation="0" ZoomLevel="9.54">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438517351342951" BaseTileLevel="0" BottomsUp="False" CenterX="210.552254226" CenterY="54.3015653039" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230624051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0580763362035617" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230624051228.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230624051228.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230623051228.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3005729007" Magnitude="0" Name="aligned_SN2023ixf-C230624051520" Opacity="100" RA="14.0367987766" Rotation="0" ZoomLevel="9.54">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438858737431949" BaseTileLevel="0" BottomsUp="False" CenterX="210.551981649" CenterY="54.3005729007" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230624051520" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.034782117378553" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230624051520.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438858737431949" BaseTileLevel="0" BottomsUp="False" CenterX="210.551981649" CenterY="54.3005729007" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230624051520" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.034782117378553" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230624051520.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230624051520.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230624051520.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3028340127" Magnitude="0" Name="aligned_SN2023ixf-C230625051228" Opacity="100" RA="14.036799762066666" Rotation="0" ZoomLevel="9.53">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014371247029415118" BaseTileLevel="0" BottomsUp="False" CenterX="210.551996431" CenterY="54.3028340127" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230625051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0006205542944546" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230625051228.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014371247029415118" BaseTileLevel="0" BottomsUp="False" CenterX="210.551996431" CenterY="54.3028340127" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230625051228" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="1.0006205542944546" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230625051228.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230625051228.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3029411268" Magnitude="0" Name="aligned_SN2023ixf-C230625051520" Opacity="100" RA="14.0368266382" Rotation="0" ZoomLevel="9.54">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001438192016592687" BaseTileLevel="0" BottomsUp="False" CenterX="210.552399573" CenterY="54.3029411268" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230625051520" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9642515777803482" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230625051520.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230625051520.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3023315301" Magnitude="0" Name="aligned_SN2023ixf-C230626053324" Opacity="100" RA="14.036875484200001" Rotation="0" ZoomLevel="9.55">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014409811069934074" BaseTileLevel="0" BottomsUp="False" CenterX="210.553132263" CenterY="54.3023315301" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230626053324" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.8946741166550385" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230626053324.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230626053324.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230625051228.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3003822564" Magnitude="0" Name="aligned_SN2023ixf-C230626053615" Opacity="100" RA="14.036880965466667" Rotation="0" ZoomLevel="9.53">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001437076299234278" BaseTileLevel="0" BottomsUp="False" CenterX="210.553214482" CenterY="54.3003822564" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230626053615" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.7567062230084369" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230626053615.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.001437076299234278" BaseTileLevel="0" BottomsUp="False" CenterX="210.553214482" CenterY="54.3003822564" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230626053615" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.7567062230084369" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230626053615.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230626053615.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230626053615.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3011813974" Magnitude="0" Name="aligned_SN2023ixf-C230627052425" Opacity="100" RA="14.0368462954" Rotation="0" ZoomLevel="9.54">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014388848911357395" BaseTileLevel="0" BottomsUp="False" CenterX="210.552694431" CenterY="54.3011813974" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230627052425" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9355989504095359" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230627052425.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014388848911357395" BaseTileLevel="0" BottomsUp="False" CenterX="210.552694431" CenterY="54.3011813974" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230627052425" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.9355989504095359" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230627052425.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230627052425.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3005087328" Magnitude="0" Name="aligned_SN2023ixf-C230627052716" Opacity="100" RA="14.036831484" Rotation="0" ZoomLevel="9.52">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014362344855673185" BaseTileLevel="0" BottomsUp="False" CenterX="210.55247226" CenterY="54.3005087328" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230627052716" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.8761263490397854" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230627052716.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230627052716.png</ThumbnailUrl>
-      </ImageSet>
-    </ForegroundImageSet>
-  </Place>
-  <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3002973305" Magnitude="0" Name="aligned_SN2023ixf-C230629054359" Opacity="100" RA="14.036904661466668" Rotation="0" ZoomLevel="9.54">
-    <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014387159682483007" BaseTileLevel="0" BottomsUp="False" CenterX="210.553569922" CenterY="54.3002973305" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230629054359" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.8217296065164446" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230629054359.png" WidthFactor="2">
-        <Credits>credits</Credits>
-        <CreditsUrl>credits_url</CreditsUrl>
-        <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230629054359.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230627052425.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
   <Place Angle="0" AngularSize="0" DataSetType="Sky" Dec="54.3020416426" Magnitude="0" Name="aligned_SN2023ixf-C230629054543" Opacity="100" RA="14.036643138533332" Rotation="0" ZoomLevel="9.54">
     <ForegroundImageSet>
-      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014389376840198784" BaseTileLevel="0" BottomsUp="False" CenterX="210.549647078" CenterY="54.3020416426" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230629054543" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.7903844481441136" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230629054543.png" WidthFactor="2">
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.0014389376840198784" BaseTileLevel="0" BottomsUp="False" CenterX="210.549647078" CenterY="54.3020416426" DataSetType="Sky" ElevationModel="False" FileType=".jpg" Generic="False" Name="aligned_SN2023ixf-C230629054543" OffsetX="325.5" OffsetY="250.5" Projection="SkyImage" QuadTreeMap="" Rotation="0.7903844481441136" Sparse="True" StockSet="False" TileLevels="0" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230629054543.png" WidthFactor="2">
         <Credits>credits</Credits>
         <CreditsUrl>credits_url</CreditsUrl>
         <Description>description</Description>
-        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/m101/microbs/aligned_SN2023ixf-C230629054543.png</ThumbnailUrl>
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/aligned_SN2023ixf-C230629054543.png</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
