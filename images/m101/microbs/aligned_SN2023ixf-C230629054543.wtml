@@ -1,5 +1,5 @@
 <Folder MSRCommunityId="0" MSRComponentId="0" Permission="0" Name="aligned_SN2023ixf-C230629054543" Group="Explorer" Searchable="False">
-  <Place Name="aligned_SN2023ixf-C230629054543" DataSetType="Sky" RA="14.036643138533332" Dec="54.3020416426" Rotation="0" ZoomLevel="9.54">
+  <Place Name="aligned_SN2023ixf-C230629054543" DataSetType="Sky" RA="14.053495278000002" Dec="54.34875" Rotation="0" ZoomLevel="7.75">
     <ForegroundImageSet>
       <ImageSet       DemUrl=""
                 MSRCommunityId="0"
@@ -25,8 +25,8 @@
                 BottomsUp="False"
                 CenterY="54.3020416426"
                 CenterX="210.549647078"
-                OffsetX="325.5"
-                OffsetY="250.5"
+                OffsetX="324.5"
+                OffsetY="249.5"
                 ReferenceFrame="">
         <Description>description</Description>
         <Credits>credits</Credits>
