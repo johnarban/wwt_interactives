@@ -10,12 +10,12 @@
     ZoomLevel="0.6815819999999999"
     DataSetType="Sky"
     Opacity="100"
-    Thumbnail="https://nova.astrometry.net/image/18547527"
+    Thumbnail="https://johnarban.github.io/wwt_interactives/images/m101/discovery_thumb.jpg"
     Constellation="">
     <ForegroundImageSet>
           <ImageSet DataSetType="Sky"
             BandPass="Visible"
-            Url="https://nova.astrometry.net/image/18547525"
+            Url="https://johnarban.github.io/wwt_interactives/images/m101/m101_discovery.jpg"
             TileLevels="0"
             WidthFactor="2"
             Rotation="-2.8000000000000114"
@@ -30,7 +30,7 @@
             BaseDegreesPerTile="0.0003442333333333333">
         <Credits>Koichi Itagaki</Credits>
         <CreditsUrl>https://www.wis-tns.org/object/2023ixf/discovery-cert</CreditsUrl>
-        <ThumbnailUrl>https://nova.astrometry.net/thumbnail_of_image/18547527</ThumbnailUrl>
+        <ThumbnailUrl>https://johnarban.github.io/wwt_interactives/images/m101/discovery_thumb.jpg</ThumbnailUrl>
       </ImageSet>
     </ForegroundImageSet>
   </Place>
