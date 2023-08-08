@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My First WWT Application</title>
+  <link rel="stylesheet" href="./test.css" />
+  <link rel="stylesheet" href="../common/range_sliders.css" />
+  <script src="binaryajax.js"></script>
+  <script src="avm.js"></script>
+  <script src="https://web.wwtassets.org/engine/7/wwtsdk.js"></script>
+  <script src="../common/helpers.js"defer> </script>
+  <script src="./test.js"defer> </script>
+</head>
+
+<body>
+  <!-- <select class="overlay" id="wwt_image_list_allsky" onchange="set_image_from_menu(this)"></select> -->
+  <div class="slidercontainer" id="slidercontainer">
+    <!-- example of input that javascript will fill in     -->
+    <!-- <input class="overlay slider" type="range" min="0" max="99" value="100"  id="Carina Nebula_slider" oninput="adjust_layer_opacity(this)"> -->
+  </div>
+  
+
+  <div id="wwtcanvas" style=""></div>
+  <div class="overlay" id="radec">
+    <div id="ra">RA: <span id="ra_val">0</span></div>
+    <div id="dec">Dec: <span id="dec_val">0</span></div>
+    <div id="fov">FOV: <span id="fov_val">0</span><sup>&cir;</sup></div>
+  </div>
+</body>
+
+</html>
