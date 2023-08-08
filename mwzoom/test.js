@@ -96,7 +96,7 @@ async function wwt_load_after_ready() {
     // grid
     // wwt_si.settings._showGrid = true;
 
-    // wwt_cl.gotoTarget(far, false, false, true);
+    wwt_cl.gotoTarget(far, false, false, true);
 
 
     set_ra_dec_display()
