@@ -30,6 +30,7 @@ html {
 /* min body height */
 body {
   min-height: 100vh;
+  background-color: black;
 }
 
 /* responsive images/videos */

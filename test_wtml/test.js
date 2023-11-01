@@ -1,3 +1,5 @@
+// uses wwtsdk.js
+
 // Global variables for RA and DEC
 
 

@@ -19,10 +19,17 @@ let wwt_images = null;
 let N_wtml = 2
 let N_wtml_loaded = 0
 
-let far = new wwtlib.Place();
-far.set_RA(0);
-far.set_dec(0);
-far.set_distance(1e14);
+// let far = new wwtlib.Place();
+// far.set_RA(0);
+// far.set_dec(0);
+// far.set_distance(5e14);
+
+
+let far2 = new wwtlib.Place();
+far2.set_RA(180);
+far2.set_dec(45);
+far2.set_distance(8e16);
+// far2.set_camParams(camParams);
 
 let bandpass = {
     0: 'Gamma',
@@ -83,7 +90,7 @@ async function wwt_load_after_ready() {
 
     // apply initial WWT settings
     wwt_si.setBackgroundImageByName("3D Solar System View");
-    wwt_si.settings.set_solarSystemScale(25);
+    wwt_si.settings.set_solarSystemScale(100);
     wwt_si.settings.set_solarSystemMilkyWay(true);
     wwt_si.settings.set_solarSystemCosmos(true);
     wwt_si.settings.set_solarSystemStars(true);
@@ -96,7 +103,8 @@ async function wwt_load_after_ready() {
     // grid
     // wwt_si.settings._showGrid = true;
 
-    wwt_cl.gotoTarget(far, false, false, true);
+    wwt_cl.gotoTarget(far2, true, false, true);
+    // wwt_cl.gotoTarget(near, false, true, true);
 
 
     set_ra_dec_display()
