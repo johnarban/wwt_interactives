@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Folder Browseable="True" Group="Explorer" Name="Toasty" Searchable="True">
+  <Place Angle="0" AngularSize="0" Constellation="SGR" DataSetType="Sky" Dec="-28.71276706937388" Magnitude="0" Name="Toasty" Opacity="100" RA="17.769039773402046" Rotation="0" Thumbnail="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/adam/annotation_toast/thumb.jpg" ZoomLevel="0.418845161382027">
+    <ForegroundImageSet>
+      <ImageSet BandPass="Visible" BaseDegreesPerTile="0.1431447460175872" BaseTileLevel="0" BottomsUp="False" CenterX="266.53557927596" CenterY="-28.712968795984" DataSetType="Sky" ElevationModel="False" FileType=".png" Generic="False" Name="Toasty" OffsetX="0.00021046347096899181" OffsetY="1.5194765021106718e-05" Projection="Tan" QuadTreeMap="" Rotation="90" Sparse="True" StockSet="False" TileLevels="5" Url="https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/adam/annotation_toast/{1}/{3}/{3}_{2}.png" WidthFactor="2">
+        <ThumbnailUrl>https://raw.githubusercontent.com/johnarban/wwt_interactives/main/images/adam/annotation_toast/thumb.jpg</ThumbnailUrl>
+      </ImageSet>
+    </ForegroundImageSet>
+  </Place>
+</Folder>
